@@ -32,4 +32,9 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add -f data/speakers.json data/speakers.csv
           git commit -m "Update speaker data" || exit 0
-          git push
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
