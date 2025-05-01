@@ -11,7 +11,7 @@ from typing import Dict, List
 
 from playwright.async_api import Page
 
-from src.paths import OUTPUT_JSON_FILE, OUTPUT_CSV_FILE
+from config import OUTPUT_JSON_FILE, OUTPUT_CSV_FILE
 
 # Constants
 GENERIC_DESCRIPTION = "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections."
