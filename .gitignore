@@ -35,11 +35,6 @@ node_modules/
 playwright-report/
 test-results/
 
-# Output files
-# data/
-# *.json
-# *.csv
-
 # IDE
 .idea/
 .vscode/
