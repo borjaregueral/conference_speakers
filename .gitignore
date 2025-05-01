@@ -36,9 +36,9 @@ playwright-report/
 test-results/
 
 # Output files
-data/
-*.json
-*.csv
+# data/
+# *.json
+# *.csv
 
 # IDE
 .idea/
