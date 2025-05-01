@@ -30,6 +30,7 @@ jobs:
         run: |
           git config --global user.email "borja.regueral@somniumrema.eu"
           git config --global user.name "GitHub Actions (Borja_Regueral)"
+          git pull origin main
           git add -f data/speakers.json data/speakers.csv
           git commit -m "Update speaker data" || exit 0
         
@@ -38,3 +39,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+          force: true
