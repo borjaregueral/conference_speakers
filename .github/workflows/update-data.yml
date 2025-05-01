@@ -28,8 +28,8 @@ jobs:
           
       - name: Commit and push if changed
         run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.email "borja.regueral@somniumrema.eu"
+          git config --global user.name "GitHub Actions (Borja_Regueral)"
           git add -f data/speakers.json data/speakers.csv
           git commit -m "Update speaker data" || exit 0
         
