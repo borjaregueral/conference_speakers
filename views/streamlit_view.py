@@ -827,11 +827,6 @@ class StreamlitView:
         last_updated = self.get_last_updated_time()
         st.sidebar.info(f"Data last updated: {last_updated}")
         
-        # Admin section (hidden by default)
-        with st.sidebar.expander("Admin Options", expanded=False):
-            st.warning("⚠️ Running the scraper directly from Streamlit Cloud may not work due to IP blocking and other limitations.")
-            if st.button("Run Scraper (Admin Only)"):
-                asyncio.run(self.run_scraper())
         
         if st.sidebar.button("Load Data"):
             self.load_data()
