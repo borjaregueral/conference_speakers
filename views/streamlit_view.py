@@ -204,7 +204,8 @@ class StreamlitView:
             company_counts = speakers_df['company'].value_counts().reset_index()
             company_counts.columns = ['Company', 'Count']
             company_counts = company_counts[company_counts['Company'] != 'Unknown']
-            company_counts = company_counts.head(10)
+            # Sort in descending order and take top 10
+            company_counts = company_counts.sort_values('Count', ascending=False).head(10)
             
             fig = px.bar(
                 company_counts,
@@ -215,6 +216,8 @@ class StreamlitView:
                 labels={'Count': 'Number of Speakers', 'Company': ''},
                 height=400,
             )
+            # Ensure x-axis shows integers only
+            fig.update_xaxes(tickmode='linear', dtick=1)
             st.plotly_chart(fig, use_container_width=True)
         
         with col2:
@@ -255,6 +258,8 @@ class StreamlitView:
                 labels={'Count': 'Number of Speakers', 'Location': ''},
                 height=400,
             )
+            # Ensure y-axis shows integers only
+            fig.update_yaxes(tickmode='linear', dtick=1)
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.info("No location information available for speakers.")
