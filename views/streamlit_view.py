@@ -632,7 +632,7 @@ class StreamlitView:
                 from collections import Counter
                 
                 # Common words to exclude
-                stop_words = {'and', 'how', 'you', 'are', 'main', 'stage', 'why', 'build', 'customers','the', 'in', 'of', 'to', 'a', 'for', 'with', 'on', 'by', 'at', 'from', 'not'}
+                stop_words = {'and', 'your', 'how', 'you', 'are', 'main', 'stage', 'why', 'build', 'customers','the', 'in', 'of', 'to', 'a', 'for', 'with', 'on', 'by', 'at', 'from', 'not'}
                 
                 # Extract words and count frequencies
                 words = []
