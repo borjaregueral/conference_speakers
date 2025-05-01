@@ -324,20 +324,36 @@ class StreamlitView:
                 st.success(f"Data exported to {config.OUTPUT_CSV_FILE}")
                 st.markdown(f"Download from: `{config.OUTPUT_CSV_FILE}`")
     
+    def get_last_updated_time(self):
+        """Get the last updated time of the data files."""
+        try:
+            if os.path.exists(config.OUTPUT_JSON_FILE):
+                mod_time = os.path.getmtime(config.OUTPUT_JSON_FILE)
+                return datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d %H:%M:%S")
+            return "Unknown"
+        except Exception:
+            return "Unknown"
+    
     def run(self):
         """Run the Streamlit application."""
         # Sidebar controls
         st.sidebar.subheader("Data Collection")
         
-        if st.sidebar.button("Run Scraper"):
-            asyncio.run(self.run_scraper())
+        # Display last updated time
+        last_updated = self.get_last_updated_time()
+        st.sidebar.info(f"Data last updated: {last_updated}")
         
-        if st.sidebar.button("Load Existing Data"):
+        # Admin section (hidden by default)
+        with st.sidebar.expander("Admin Options", expanded=False):
+            st.warning("⚠️ Running the scraper directly from Streamlit Cloud may not work due to IP blocking and other limitations.")
+            if st.button("Run Scraper (Admin Only)"):
+                asyncio.run(self.run_scraper())
+        
+        if st.sidebar.button("Load Data"):
             self.load_data()
         
-        # Check if data is loaded
+        # Always try to load data automatically
         if not self.speaker_collection:
-            # Try to load data automatically
             self.load_data()
         
         # If data is loaded, display it
@@ -363,11 +379,11 @@ class StreamlitView:
             st.markdown("""
             ## Welcome to the World Retail Congress Speakers Scraper
             
-            This application allows you to scrape and analyze speaker data from the World Retail Congress website.
+            This application allows you to analyze speaker data from the World Retail Congress website.
             
-            To get started, click the "Run Scraper" button in the sidebar to collect speaker data.
+            The data is automatically updated daily via GitHub Actions. You can see when the data was last updated in the sidebar.
             
-            If you've already run the scraper, you can click "Load Existing Data" to load the previously scraped data.
+            If the data doesn't load automatically, click the "Load Data" button in the sidebar.
             """)
 
 
