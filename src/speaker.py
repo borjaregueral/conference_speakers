@@ -9,7 +9,7 @@ from typing import Dict
 
 from playwright.async_api import Page, Browser
 
-from src.paths import BASE_URL
+from config import BASE_URL
 from src.utils import GENERIC_DESCRIPTION, accept_cookies
 
 # Configure logging
