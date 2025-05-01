@@ -812,7 +812,8 @@ class StreamlitView:
         try:
             if os.path.exists(config.OUTPUT_JSON_FILE):
                 mod_time = os.path.getmtime(config.OUTPUT_JSON_FILE)
-                return datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d %H:%M:%S")
+                # Format with CET timezone indication
+                return datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d %H:%M:%S CET")
             return "Unknown"
         except Exception:
             return "Unknown"
