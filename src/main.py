@@ -14,7 +14,7 @@ from typing import Dict, List
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 
-from src.paths import SPEAKERS_URL
+from config import SPEAKERS_URL
 from src.speaker import extract_speaker_details
 from src.utils import (
     accept_cookies,
