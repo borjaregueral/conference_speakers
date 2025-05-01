@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add data/speakers.json data/speakers.csv
+          git add -f data/speakers.json data/speakers.csv
           git commit -m "Update speaker data" || exit 0
           git push
