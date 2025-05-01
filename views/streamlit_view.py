@@ -548,7 +548,7 @@ class StreamlitView:
                     text='Count',  # Add count as text on points
                 )
                 # Ensure y-axis shows integers only and remove grid
-                fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
+                fig.update_yaxes(showticklabels=False, showgrid=False)
                 # Remove x-axis grid
                 fig.update_xaxes(showgrid=False)
                 # Format the text on the points - no decimals
