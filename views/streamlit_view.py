@@ -334,21 +334,21 @@ class StreamlitView:
                     x='Count',
                     y='Company',
                     orientation='h',
-                    title='Companies with more than 1 representative',
+                    title='Companies with more than one representative',
                     labels={'Count': 'Number of Speakers', 'Company': ''},
                     height=400,
                     color='Count',
                     color_continuous_scale='Blues',
                     text='Count',  # Add count as text on bars
                 )
-                # Ensure x-axis shows integers only and remove grid
-                fig.update_xaxes(tickmode='linear', dtick=1, showgrid=False)
-                # Remove y-axis
+                # Hide x-axis ticks and numbers, keep title
+                fig.update_xaxes(showticklabels=False, showgrid=False, title_text='Number of Speakers')
+                # Keep y-axis labels (company names)
                 fig.update_yaxes(showticklabels=True, showgrid=False)
                 # Format the text on the bars - no decimals
                 fig.update_traces(texttemplate='%{text:.0f}', textposition='inside')
-                # Update color bar to show integers only
-                fig.update_coloraxes(colorbar_tickformat='.0f')
+                # Hide color bar/legend
+                fig.update_coloraxes(showscale=False)
                 st.plotly_chart(fig, use_container_width=True)
             
             with col2:
@@ -362,8 +362,8 @@ class StreamlitView:
                     color='Count',
                     color_continuous_scale='Blues',
                 )
-                # Update color bar to show integers only
-                fig.update_coloraxes(colorbar_tickformat='.0f')
+                # Hide color bar/legend
+                fig.update_coloraxes(showscale=False)
                 st.plotly_chart(fig, use_container_width=True)
             
             # No additional chart needed
@@ -406,14 +406,14 @@ class StreamlitView:
                         color_continuous_scale='Greens',
                         text='Count',  # Add count as text on bars
                     )
-                    # Ensure y-axis shows integers only and remove grid
-                    fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
-                    # Remove x-axis grid
+                    # Hide y-axis ticks and numbers, keep title
+                    fig.update_yaxes(showticklabels=False, showgrid=False, title_text='Number of Speakers')
+                    # Keep x-axis labels (dates)
                     fig.update_xaxes(showgrid=False)
                     # Format the text on the bars - no decimals
                     fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
-                    # Update color bar to show integers only
-                    fig.update_coloraxes(colorbar_tickformat='.0f')
+                    # Hide color bar/legend
+                    fig.update_coloraxes(showscale=False)
                     st.plotly_chart(fig, use_container_width=True)
                 
                 # Calendar heatmap-style visualization
@@ -473,14 +473,14 @@ class StreamlitView:
                         color_continuous_scale='Reds',
                         text='Count',  # Add count as text on bars
                     )
-                    # Ensure y-axis shows integers only and remove grid
-                    fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
-                    # Remove x-axis grid
+                    # Hide y-axis ticks and numbers, keep title
+                    fig.update_yaxes(showticklabels=False, showgrid=False, title_text='Number of Speakers')
+                    # Keep x-axis labels (locations)
                     fig.update_xaxes(showgrid=False)
                     # Format the text on the bars - no decimals
                     fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
-                    # Update color bar to show integers only
-                    fig.update_coloraxes(colorbar_tickformat='.0f')
+                    # Hide color bar/legend
+                    fig.update_coloraxes(showscale=False)
                     st.plotly_chart(fig, use_container_width=True)
                 
                 with col2:
