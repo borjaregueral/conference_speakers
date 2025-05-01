@@ -326,22 +326,29 @@ class StreamlitView:
             company_counts = company_counts.sort_values('Count', ascending=False)
             
             with col1:
-                # Horizontal bar chart for top companies
-                top_companies = company_counts.head(10)
+                # Horizontal bar chart for all companies with more than 1 speaker
+                top_companies = company_counts[company_counts['Count'] > 1]
                 
                 fig = px.bar(
                     top_companies,
                     x='Count',
                     y='Company',
                     orientation='h',
-                    title='Top 10 Companies',
+                    title='Companies with more than 1 representative',
                     labels={'Count': 'Number of Speakers', 'Company': ''},
                     height=400,
                     color='Count',
                     color_continuous_scale='Blues',
+                    text='Count',  # Add count as text on bars
                 )
-                # Ensure x-axis shows integers only
-                fig.update_xaxes(tickmode='linear', dtick=1)
+                # Ensure x-axis shows integers only and remove grid
+                fig.update_xaxes(tickmode='linear', dtick=1, showgrid=False)
+                # Remove y-axis
+                fig.update_yaxes(showticklabels=True, showgrid=False)
+                # Format the text on the bars - no decimals
+                fig.update_traces(texttemplate='%{text:.0f}', textposition='inside')
+                # Update color bar to show integers only
+                fig.update_coloraxes(colorbar_tickformat='.0f')
                 st.plotly_chart(fig, use_container_width=True)
             
             with col2:
@@ -350,30 +357,16 @@ class StreamlitView:
                     top_companies,
                     path=['Company'],
                     values='Count',
-                    title='Company Representation (Treemap)',
+                    title='Company Representation',
                     height=400,
                     color='Count',
                     color_continuous_scale='Blues',
                 )
+                # Update color bar to show integers only
+                fig.update_coloraxes(colorbar_tickformat='.0f')
                 st.plotly_chart(fig, use_container_width=True)
             
-            # Company distribution pie chart
-            if len(company_counts) > 10:
-                # Group smaller companies into "Others" category
-                top_n = 10
-                others_count = company_counts.iloc[top_n:]['Count'].sum()
-                top_companies = company_counts.head(top_n).copy()
-                others = pd.DataFrame({'Company': ['Others'], 'Count': [others_count]})
-                pie_data = pd.concat([top_companies, others])
-                
-                fig = px.pie(
-                    pie_data,
-                    values='Count',
-                    names='Company',
-                    title=f'Top {top_n} Companies vs Others',
-                    height=500,
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            # No additional chart needed
         
         # ---- DATE STATISTICS ----
         with date_tab:
@@ -411,9 +404,16 @@ class StreamlitView:
                         height=400,
                         color='Count',
                         color_continuous_scale='Greens',
+                        text='Count',  # Add count as text on bars
                     )
-                    # Ensure y-axis shows integers only
-                    fig.update_yaxes(tickmode='linear', dtick=1)
+                    # Ensure y-axis shows integers only and remove grid
+                    fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
+                    # Remove x-axis grid
+                    fig.update_xaxes(showgrid=False)
+                    # Format the text on the bars - no decimals
+                    fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
+                    # Update color bar to show integers only
+                    fig.update_coloraxes(colorbar_tickformat='.0f')
                     st.plotly_chart(fig, use_container_width=True)
                 
                 # Calendar heatmap-style visualization
@@ -471,9 +471,16 @@ class StreamlitView:
                         height=400,
                         color='Count',
                         color_continuous_scale='Reds',
+                        text='Count',  # Add count as text on bars
                     )
-                    # Ensure y-axis shows integers only
-                    fig.update_yaxes(tickmode='linear', dtick=1)
+                    # Ensure y-axis shows integers only and remove grid
+                    fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
+                    # Remove x-axis grid
+                    fig.update_xaxes(showgrid=False)
+                    # Format the text on the bars - no decimals
+                    fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
+                    # Update color bar to show integers only
+                    fig.update_coloraxes(colorbar_tickformat='.0f')
                     st.plotly_chart(fig, use_container_width=True)
                 
                 with col2:
@@ -538,9 +545,16 @@ class StreamlitView:
                     labels={'Count': 'Number of Speakers', 'Hour': 'Hour of Day'},
                     height=400,
                     markers=True,
+                    text='Count',  # Add count as text on points
                 )
-                # Ensure y-axis shows integers only
-                fig.update_yaxes(tickmode='linear', dtick=1)
+                # Ensure y-axis shows integers only and remove grid
+                fig.update_yaxes(tickmode='linear', dtick=1, showgrid=False)
+                # Remove x-axis grid
+                fig.update_xaxes(showgrid=False)
+                # Format the text on the points - no decimals
+                fig.update_traces(texttemplate='%{text:.0f}', textposition='top center')
+                # Update color bar to show integers only
+                fig.update_coloraxes(colorbar_tickformat='.0f')
                 st.plotly_chart(fig, use_container_width=True)
                 
                 # Create a heatmap-style visualization of the daily schedule
@@ -642,7 +656,15 @@ class StreamlitView:
                     height=500,
                     color='Count',
                     color_continuous_scale='Purples',
+                    text='Count',  # Add count as text on bars
                 )
+                # Remove grid
+                fig.update_yaxes(showgrid=False)
+                fig.update_xaxes(showgrid=False)
+                # Format the text on the bars - no decimals
+                fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
+                # Update color bar to show integers only
+                fig.update_coloraxes(colorbar_tickformat='.0f')
                 st.plotly_chart(fig, use_container_width=True)
             else:
                 st.info("No session titles available for analysis.")
