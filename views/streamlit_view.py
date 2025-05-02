@@ -1106,7 +1106,7 @@ class StreamlitView:
                 background-color: rgba(100, 149, 237, 0.2);
                 padding: 10px;
                 border-radius: 5px;
-                color: #333333;
+                color: #FFFFFF;
                 margin-bottom: 20px;
             ">
                 <strong>Data last updated:</strong><br/>
