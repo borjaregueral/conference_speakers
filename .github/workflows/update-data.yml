@@ -41,11 +41,20 @@ jobs:
           git config --global user.email "borja.regueral@somniumrema.eu"
           git config --global user.name "GitHub Actions (Borja_Regueral)"
           
-          # Remove any existing data files before adding the new ones
-          git rm -f --ignore-unmatch data/speakers.json data/speakers.csv
+          # Check if data files exist and handle them appropriately
+          if [ -f "data/speakers.json" ]; then
+            echo "Found speakers.json, adding to git"
+            git add -f data/speakers.json
+          else
+            echo "speakers.json not found, skipping"
+          fi
           
-          # Add the new data files
-          git add -f data/speakers.json data/speakers.csv
+          if [ -f "data/speakers.csv" ]; then
+            echo "Found speakers.csv, adding to git"
+            git add -f data/speakers.csv
+          else
+            echo "speakers.csv not found, skipping"
+          fi
           
           # Commit if there are changes
           git diff --staged --quiet || git commit -m "Update speaker data"
