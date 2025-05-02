@@ -7,7 +7,12 @@
     "session_title": "From Traffic to Revenue: Unlock Platform Success with Retail Media",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Technology",
+    "company_size": "500-1000 employees",
+    "company_hq_address": "83 avenue de la Grande Armée, Paris, 75116, France",
+    "company_hq_country": "France",
+    "company_international": "Yes"
   },
   {
     "name": "Adwaita Nayar",
@@ -17,7 +22,12 @@
     "session_title": "How to Build for your Community",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "200-500 employees",
+    "company_hq_address": "104 Vasan Udyog Bhavan, Sun Mill Compound, Lower Parel, Mumbai, Maharashtra 400013, India",
+    "company_hq_country": "India",
+    "company_international": "No"
   },
   {
     "name": "Akash Gupta",
@@ -27,7 +37,12 @@
     "session_title": "Where AI Meets the Aisle – Because Every Shopper Deserves a Personal Touch",
     "date": "13 May 2025",
     "time": "12:50 - 13:50",
-    "location": "50 Crystal Palace Suite"
+    "location": "50 Crystal Palace Suite",
+    "company_type": "Technology",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "Building 1, 3rd Floor, Candor TechSpace, Sector 48, Gurugram, Haryana 122018, India",
+    "company_hq_country": "India",
+    "company_international": "Yes"
   },
   {
     "name": "Alex Genov",
@@ -37,17 +52,27 @@
     "session_title": "Humanizing Retail - Understanding the Holistic Customer 14-May-2025 11:30 – 12:10 Track 3 Interactive Debate: Humanising Retail: Putting people back into data",
     "date": "14 May 2025",
     "time": "16:00 - 17:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Allyson Zimmerman",
     "position": "CEO,",
     "company": "LEAD Network Europe",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Why are some trying to exclude Diversity and Inclusion?",
     "date": "14 May 2025",
     "time": "15:00 - 15:20",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Non-profit organization",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Netherlands",
+    "company_international": "Yes"
   },
   {
     "name": "Amit Chitnis",
@@ -57,7 +82,12 @@
     "session_title": "How to unlock growth through better supplier partnerships",
     "date": "14 May 2025",
     "time": "12:10 - 12:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Buildings One & Two, Trident Place, Mosquito Way, Hatfield, Hertfordshire, AL10 9UL",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Amit Sarda",
@@ -67,37 +97,57 @@
     "session_title": "Quick Commerce",
     "date": "13 May 2025",
     "time": "12:10 - 12:30",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Personal Care & Beauty Products",
+    "company_size": "51-200 employees",
+    "company_hq_address": "Mumbai, Maharashtra, India",
+    "company_hq_country": "India",
+    "company_international": "No"
   },
   {
     "name": "Andrew Gossage",
     "position": "CEO,",
     "company": "Ultimate Products",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Driving Growth in PE, VC or PLCs",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Consumer Goods",
+    "company_size": "251-500 employees",
+    "company_hq_address": "Manor Mill, Victoria Street, Chadderton, Oldham, OL9 0DD, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Anja Madsen",
     "position": "COO,",
     "company": "Pets at Home",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Approximately 7,000 employees",
+    "company_hq_address": "Epsom Ave, Stanley Green, Handforth, Wilmslow SK9 3RN, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Barbara O'Beirne",
     "position": "Global Head of Industry and Value Consulting,",
     "company": "Stripe",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Making Unified Commerce a Reality",
     "date": "13 May 2025",
     "time": "12:50 - 13:50",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Technology",
+    "company_size": "Over 7,000 employees",
+    "company_hq_address": "510 Townsend Street, San Francisco, CA 94103, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Ben Tye",
@@ -107,7 +157,12 @@
     "session_title": "People-first retail transformation strategies",
     "date": "13 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Consulting",
+    "company_size": "51-200 employees",
+    "company_hq_address": "The Relay Building, 114 Whitechapel High St, London E1 7PT, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Brieane Olson",
@@ -117,67 +172,102 @@
     "session_title": "how to learn from challenger brands and to adopt a different way of connecting with customers",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "3450 E Miraloma Ave, Anaheim, CA 92806, United States",
+    "company_hq_country": "United States",
+    "company_international": "No"
   },
   {
     "name": "Britt Olsen",
     "position": "Chief Commercial Officer,",
     "company": "On",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Britt Olsen, Chief Commercial Officer, On",
     "date": "13 May 2025",
     "time": "10:20 - 10:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Sportswear",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "Pfingstweidstrasse 106, 8005 Zurich",
+    "company_hq_country": "Switzerland",
+    "company_international": "Yes"
   },
   {
     "name": "Carolin Klar",
     "position": "Member of the Executive Board,",
     "company": "Bonprix",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "The power of strategic sourcing partnerships",
     "date": "14 May 2025",
     "time": "14:40 - 15:00",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "3000+ employees",
+    "company_hq_address": "Haldesdorfer Straße 61, 22179 Hamburg, Germany",
+    "company_hq_country": "Germany",
+    "company_international": "Yes"
   },
   {
     "name": "Carsten Keller",
     "position": "CEO,",
     "company": "Chrono24",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to Build for your Community",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "E-commerce",
+    "company_size": "400+ employees",
+    "company_hq_address": "Haid-und-Neu-Straße 18, 76131 Karlsruhe, Germany",
+    "company_hq_country": "Germany",
+    "company_international": "Yes"
   },
   {
     "name": "Catherine Brien",
     "position": "Partner and Managing Director,",
     "company": "AlixPartners",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Leading the AI Revolution",
     "date": "13 May 2025",
     "time": "16:10 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Consulting",
+    "company_size": "2000+ employees",
+    "company_hq_address": "909 Third Avenue, New York, NY 10022, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Charlotte Keesing",
     "position": "Director,",
     "company": "Walpole",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Luxury",
     "date": "14 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "50 Grosvenor Hill, London W1K 3QT, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Cheryl Potter",
     "position": "Non-Executive Director,",
     "company": "Marks & Spencer",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Driving Growth in PE, VC or PLCs",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "70,000 employees",
+    "company_hq_address": "Waterside House, 35 North Wharf Road, London, W2 1NW, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Chris Aubrey",
@@ -187,7 +277,12 @@
     "session_title": "Future of Physical Retailing",
     "date": "13 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Automotive",
+    "company_size": "About 40,000 employees",
+    "company_hq_address": "Abbey Road, Whitley, Coventry CV3 4LF, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Dan Coen",
@@ -197,7 +292,12 @@
     "session_title": "Overcoming Sourcing and Supply Chain Challenges in a Volatile World",
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "David Billings",
@@ -207,17 +307,27 @@
     "session_title": "How agentic solutions are already accelerating customer data value for retailers and brands",
     "date": "14 May 2025",
     "time": "07:45 - 08:45",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Information Technology and Services",
+    "company_size": "Over 58,000 employees",
+    "company_hq_address": "41 University Drive, Suite 202, Newtown, PA 18940, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "David Roth",
     "position": "CEO and Chairman,",
     "company": "The Store - WPP and BAV",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "how to learn from challenger brands and to adopt a different way of connecting with customers",
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Marketing and Advertising",
+    "company_size": "Not available",
+    "company_hq_address": "Sea Containers, 18 Upper Ground, London SE1 9GL, UK",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Deborah Weinswig",
@@ -227,7 +337,12 @@
     "session_title": "Growing Disruptive Retail Brands",
     "date": "13 May 2025",
     "time": "12:00 - 13:00",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Market Research",
+    "company_size": "11-50 employees",
+    "company_hq_address": "575 Fifth Avenue, 14th Floor, New York, NY 10017, USA",
+    "company_hq_country": "USA",
+    "company_international": "Yes"
   },
   {
     "name": "Dennis Schröder",
@@ -237,27 +352,42 @@
     "session_title": "Building Worldwide Communities",
     "date": "13 May 2025",
     "time": "14:40 - 15:00",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "Over 800 stores",
+    "company_hq_address": "Schanzenstraße 41, 51063 Cologne, Germany",
+    "company_hq_country": "Germany",
+    "company_international": "Yes"
   },
   {
     "name": "Devarajan Iyer",
     "position": "CEO and Executive Director of Lifestyle India,",
     "company": "Landmark India",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "International Expansion in a Changing World",
     "date": "13 May 2025",
     "time": "14:40 - 15:40",
-    "location": "40 Crystal Palace Suite"
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Retail",
+    "company_size": "10,001+ employees",
+    "company_hq_address": "Maxus Mall, Near Temba Hospital Rd, Bhayandar West, Thane, Maharashtra 401101, India",
+    "company_hq_country": "India",
+    "company_international": "Yes"
   },
   {
     "name": "Dirk van den Berghe",
     "position": "Chairman,",
     "company": "Takko Fashion",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Asia",
     "date": "14 May 2025",
     "time": "14:25 - 14:45",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Approximately 18,000 employees",
+    "company_hq_address": "Alfred-Krupp-Straße 21, 48291 Telgte, Germany",
+    "company_hq_country": "Germany",
+    "company_international": "Yes"
   },
   {
     "name": "Elsa Pedro do Souto",
@@ -267,7 +397,12 @@
     "session_title": "Humanizing Retail - Understanding the Holistic Customer 14-May-2025 11:30 – 12:10 Track 3 Interactive Debate: Humanising Retail: Putting people back into data",
     "date": "14 May 2025",
     "time": "16:00 - 17:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Consumer goods",
+    "company_size": "About 130,000 employees",
+    "company_hq_address": "6885 Elm Street, McLean, VA 22101, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Enrique Ostalé",
@@ -277,17 +412,27 @@
     "session_title": "Leading the AI Revolution",
     "date": "13 May 2025",
     "time": "16:10 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Approximately 100,000 employees",
+    "company_hq_address": "Rosas 1665, Santiago, Chile",
+    "company_hq_country": "Chile",
+    "company_international": "Yes"
   },
   {
     "name": "Eshita Kabra",
     "position": "Founder & CEO,",
     "company": "By Rotation",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to Build for your Community",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Fashion Technology",
+    "company_size": "11-50 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Fahed Ghanim",
@@ -297,27 +442,42 @@
     "session_title": "Future of Physical Retailing",
     "date": "13 May 2025",
     "time": "08:00 - 09:00",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Majid Al Futtaim Tower 2, Level 3, Dubai, United Arab Emirates",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Fiona Eastwood",
     "position": "CEO,",
     "company": "Merlin Entertainments",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Winning Customer Experience from Beyond Retail",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Entertainment",
+    "company_size": "28,000 employees",
+    "company_hq_address": "Link House, 25 West Street, Poole, Dorset BH15 1LD",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Fraser Brown",
     "position": "Retail Director,",
     "company": "Heathrow Airport",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Winning Customer Experience from Beyond Retail",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Aviation",
+    "company_size": "Not available",
+    "company_hq_address": "The Compass Centre, Nelson Road, Hounslow, TW6 2GW",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Frederico Trajano",
@@ -327,37 +487,57 @@
     "session_title": "Frederico Trajano, CEO, Magalu",
     "date": "13 May 2025",
     "time": "16:40 - 17:00",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Approximately 30,000 employees",
+    "company_hq_address": "Rua Arnulfo de Lima, 2385 - Vila Santa Cruz, Franca - SP, 14403-491, Brazil",
+    "company_hq_country": "Brazil",
+    "company_international": "No"
   },
   {
     "name": "Gary Topp",
     "position": "European Commercial Director,",
     "company": "AliExpress",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Not available",
     "date": "12th - 14th May 2025",
     "time": "Not available",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "E-commerce",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "China",
+    "company_international": "Yes"
   },
   {
     "name": "George Evans",
     "position": "VP – Head of Cognizant Moment, EMEA & APJ,",
     "company": "Cognizant",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Change Agents: Are you ready for the future of shopping? Why retailers and CPG businesses need to prepare now for agentic AI",
     "date": "13 May 2025",
     "time": "07:45 - 08:45",
-    "location": "Serpentine Room"
+    "location": "Serpentine Room",
+    "company_type": "Technology",
+    "company_size": "345,300 employees",
+    "company_hq_address": "300 Frank W. Burr Blvd, Teaneck, NJ 07666, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Georgina Smallwood",
     "position": "Chief Product, Data and Technology Officer,",
     "company": "Moonpig",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How Retail & Brand Leaders are Building Connected Consumer Experiences with Data and AI",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "E-commerce",
+    "company_size": "500+ employees",
+    "company_hq_address": "Herbal House, 10 Back Hill, London EC1R 5EN, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Graham Heuman",
@@ -367,37 +547,57 @@
     "session_title": "The Next Generations in Retail: Gen Z and Gen Alpha as Employee and Consumer",
     "date": "14 May 2025",
     "time": "14:40 - 15:40",
-    "location": "40 Crystal Palace Suite"
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Retail Consulting",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Canada",
+    "company_international": "Yes"
   },
   {
     "name": "Hani Weiss",
     "position": "CEO, Max Fashion,",
     "company": "Landmark Group",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Rami Baitieh, CEO, Morrisons",
     "date": "14 May 2025",
     "time": "16:20 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "55,000 employees",
+    "company_hq_address": "Landmark Towers, Dubai Marina, Dubai, United Arab Emirates",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Heather McIlvaine",
     "position": "Managing Editor,",
     "company": "Inside Retail",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Todd Snyder, Founder, Todd Snyder",
     "date": "14 May 2025",
     "time": "14:10 - 14:40",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Media",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Australia",
+    "company_international": "No"
   },
   {
     "name": "Heidi Stevens",
     "position": "CEO,",
     "company": "Otto International",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "The power of strategic sourcing partnerships",
     "date": "14 May 2025",
     "time": "14:40 - 15:00",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Wandsbeker Strasse 3-7, 22172 Hamburg, Germany",
+    "company_hq_country": "Germany",
+    "company_international": "Yes"
   },
   {
     "name": "Helena Helmersson",
@@ -407,27 +607,42 @@
     "session_title": "The Business of Sustainability – Leading to Win",
     "date": "14 May 2025",
     "time": "09:30 - 09:50",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Sustainable Fashion",
+    "company_size": "Not available",
+    "company_hq_address": "Renstiernas gata 29, 116 31 Stockholm, Sweden",
+    "company_hq_country": "Sweden",
+    "company_international": "No"
   },
   {
     "name": "Ian Bailey",
     "position": "Chairman,",
     "company": "Anko Global",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Adapting the Retail Model for a New Growth Path",
     "date": "14 May 2025",
     "time": "17:15 - 17:35",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Ian McGarrigle",
     "position": "Chairman & Director,",
     "company": "World Retail Congress",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "05 Main Stage Welcome to the World Retail Congress Day One",
     "date": "13 May 2025",
     "time": "13:30 - 13:35",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Yes"
   },
   {
     "name": "Ian McLeod",
@@ -437,17 +652,27 @@
     "session_title": "Not available",
     "date": "12th - 14th May 2025",
     "time": "Not available",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Retail",
+    "company_size": "77,000 employees",
+    "company_hq_address": "3 Sheldon Square, Paddington, London W2 6PX, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Ira Kalish",
     "position": "Chief Economist,",
     "company": "Deloitte",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Global Forecasting 13-May-2025 09:30 – 09:50 Main Stage Keynote Address: Economic Forecast",
     "date": "13 May 2025",
     "time": "13:55 - 14:25",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Professional Services",
+    "company_size": "Over 415,000 employees",
+    "company_hq_address": "30 Rockefeller Plaza, New York, NY 10112, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "James Wellwood",
@@ -457,7 +682,12 @@
     "session_title": "Growing Disruptive Retail Brands",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Jamie Salter",
@@ -467,7 +697,12 @@
     "session_title": "30 Main Stage The Power Interview",
     "date": "14 May 2025",
     "time": "09:05 - 09:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Brand Development",
+    "company_size": "600 employees",
+    "company_hq_address": "1411 Broadway, 4th Floor, New York, NY 10018, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Jane Mustoe",
@@ -477,7 +712,12 @@
     "session_title": "People-first retail transformation strategies",
     "date": "13 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Over 300,000 employees",
+    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Jaume Miquel Naudi",
@@ -487,7 +727,12 @@
     "session_title": "Future of Physical Retailing",
     "date": "13 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Approximately 8,000 employees",
+    "company_hq_address": "Avenida del Llano Castellano, 51, 28034 Madrid, Spain",
+    "company_hq_country": "Spain",
+    "company_international": "Yes"
   },
   {
     "name": "Jennifer Woo",
@@ -497,7 +742,12 @@
     "session_title": "Winning ways of delivering experience, service and building loyalty",
     "date": "13 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "1000-5000 employees",
+    "company_hq_address": "One Island South, 2 Heung Yip Road, Wong Chuk Hang, Hong Kong",
+    "company_hq_country": "Hong Kong",
+    "company_international": "Yes"
   },
   {
     "name": "Jill Orr",
@@ -507,17 +757,27 @@
     "session_title": "Creating special discovery moments for customers",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Technology",
+    "company_size": "2600 employees",
+    "company_hq_address": "32 Rue Blanche, 75009 Paris, France",
+    "company_hq_country": "France",
+    "company_international": "Yes"
   },
   {
     "name": "John Hadden",
     "position": "CEO,",
     "company": "Alshaya",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to unlock the potential for international growth",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Over 53,000 employees",
+    "company_hq_address": "Alshaya Group, Burj Alshaya, Al Soor Street, Al Mirqab, Kuwait City, Kuwait",
+    "company_hq_country": "Kuwait",
+    "company_international": "Yes"
   },
   {
     "name": "John McLoughlin",
@@ -527,7 +787,12 @@
     "session_title": "How to unlock growth through better supplier partnerships",
     "date": "14 May 2025",
     "time": "12:10 - 12:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Research, Benchmarking, and Advisory",
+    "company_size": "51-200 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Canada",
+    "company_international": "Yes"
   },
   {
     "name": "John Ryan",
@@ -537,27 +802,42 @@
     "session_title": "The Top 10 Store Designs Delivering Great Customer Experience 14-May-2025 15:00 – 15:20 Track 3 Download: The Art and the Science of Store Design: Today’s Winning New Concepts",
     "date": "14 May 2025",
     "time": "08:00 - 09:00",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "John Scott",
     "position": "Founder & CEO,",
     "company": "Liminal Retail",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to unlock the potential for international growth",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Jonathan Poma",
     "position": "Director, Go-to-Market Initiatives ,",
     "company": "Shopify",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Change Agents: Are you ready for the future of shopping? Why retailers and CPG businesses need to prepare now for agentic AI",
     "date": "13 May 2025",
     "time": "07:45 - 08:45",
-    "location": "Serpentine Room"
+    "location": "Serpentine Room",
+    "company_type": "Technology",
+    "company_size": "10,000+ employees",
+    "company_hq_address": "151 O'Connor Street, Ground floor, Ottawa, ON K2P 2L8, Canada",
+    "company_hq_country": "Canada",
+    "company_international": "Yes"
   },
   {
     "name": "Juan Carlos Escribano",
@@ -567,17 +847,27 @@
     "session_title": "Winning ways of delivering experience, service and building loyalty",
     "date": "13 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "10,600+ employees",
+    "company_hq_address": "Durango 230, Roma, Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "company_hq_country": "Mexico",
+    "company_international": "No"
   },
   {
     "name": "Judith McKenna",
     "position": "Non-Executive Director,",
     "company": "Unilever, Delta",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "how to learn from challenger brands and to adopt a different way of connecting with customers",
     "date": "14 May 2025",
     "time": "14:25 - 14:45",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Consumer Goods",
+    "company_size": "148,000 employees",
+    "company_hq_address": "Unilever House, 100 Victoria Embankment, London EC4Y 0DY, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Karin Karay",
@@ -587,7 +877,12 @@
     "session_title": "Frederico Trajano, CEO, Magalu",
     "date": "13 May 2025",
     "time": "16:40 - 17:00",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Executive Search and Leadership Consulting",
+    "company_size": "Approximately 1,500 employees",
+    "company_hq_address": "353 N. Clark St., Suite 2500, Chicago, IL 60654, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Kate Walsh",
@@ -597,27 +892,42 @@
     "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Executive Search and Leadership Advisory",
+    "company_size": "700+ employees",
+    "company_hq_address": "277 Park Avenue, 38th Floor, New York, NY 10172, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Ken Murphy",
     "position": "CEO,",
     "company": "Tesco",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Ken Murphy, CEO, Tesco",
     "date": "13 May 2025",
     "time": "09:10 - 09:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Over 300,000 employees",
+    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Ken Pilot",
     "position": "Founder,",
     "company": "Ken Pilot Ventures",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Capturing Customer Love and Loyalty with Innovation 13-May-2025 11:30 – 12:10 Track 1 Debate: How to Build for your Community",
     "date": "13 May 2025",
     "time": "10:30 - 11:00",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Khalifa Bin Braik",
@@ -627,7 +937,12 @@
     "session_title": "Winning Customer Experience from Beyond Retail",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Conglomerate",
+    "company_size": "Over 43,000 employees",
+    "company_hq_address": "Majid Al Futtaim Tower 2, Level 3, Dubai, United Arab Emirates",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Koreen Fader",
@@ -637,7 +952,12 @@
     "session_title": "Enhancing Experiences for Underserved Customers",
     "date": "13 May 2025",
     "time": "12:30 - 12:50",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Building 8, Chiswick Park, 566 Chiswick High Road, London W4 5XU, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Kristina Blahnik",
@@ -647,17 +967,27 @@
     "session_title": "Luxury",
     "date": "14 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Fashion",
+    "company_size": "51-200 employees",
+    "company_hq_address": "49-51 Old Church St, London SW3 5BS, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Laura Youngson",
     "position": "Co-Founder and CEO ,",
     "company": "IDA Sports",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to Build for your Community",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Sports Equipment",
+    "company_size": "1-10 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Australia",
+    "company_international": "Yes"
   },
   {
     "name": "Laure Le Gall",
@@ -667,27 +997,42 @@
     "session_title": "The Engine Behind eCommerce Growth - Extending your Assortment Online, Profitably",
     "date": "14 May 2025",
     "time": "12:50 - 13:50",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Technology",
+    "company_size": "800+ employees",
+    "company_hq_address": "176 Avenue Charles de Gaulle, 92200 Neuilly-sur-Seine, France",
+    "company_hq_country": "France",
+    "company_international": "Yes"
   },
   {
     "name": "Leonie Foster",
     "position": "COO,",
     "company": "Selfridges",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Winning ways of delivering experience, service and building loyalty",
     "date": "13 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Approximately 5000 employees",
+    "company_hq_address": "400 Oxford Street, London, W1A 1AB, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Lynne Walker",
     "position": "Director Primark Cares,",
     "company": "Primark",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Winning with the circular economy – and building better businesses",
     "date": "14 May 2025",
     "time": "12:20 - 13:00",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "70,000 employees",
+    "company_hq_address": "Arthur Ryan House, 22-24 Parnell Street, Dublin 1, Ireland",
+    "company_hq_country": "Ireland",
+    "company_international": "Yes"
   },
   {
     "name": "Malin Andrée",
@@ -697,7 +1042,12 @@
     "session_title": "Adapting the Retail Model for a New Growth Path",
     "date": "14 May 2025",
     "time": "15:50 - 16:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Professional services",
+    "company_size": "Over 365,000 employees",
+    "company_hq_address": "6 More London Place, London SE1 2DA, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Marcella Wartenbergh",
@@ -707,17 +1057,27 @@
     "session_title": "Growth Drivers: Where is global retail growth coming from?",
     "date": "13 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Fashion",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Mariëlle Slenders",
     "position": "Head of Media & Retail Media,",
     "company": "A.S. Watson Benelux",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "From Traffic to Revenue: Unlock Platform Success with Retail Media",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Netherlands",
+    "company_international": "Yes"
   },
   {
     "name": "Marisa Gardini",
@@ -727,17 +1087,27 @@
     "session_title": "Luxury",
     "date": "14 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Mark Conway",
     "position": "COO, Kuwait, Oman, Bahrain & Kuwait,",
     "company": "Landmark Retail",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "International Expansion in a Changing World",
     "date": "13 May 2025",
     "time": "14:40 - 15:40",
-    "location": "40 Crystal Palace Suite"
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Mark W. Baum",
@@ -747,27 +1117,42 @@
     "session_title": "Winning with the circular economy – and building better businesses",
     "date": "14 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Trade Association",
+    "company_size": "51-200 employees",
+    "company_hq_address": "2345 Crystal Drive, Suite 800, Arlington, VA 22202, United States",
+    "company_hq_country": "United States",
+    "company_international": "No"
   },
   {
     "name": "Matthew Shay",
     "position": "President & CEO,",
     "company": "National Retail Federation (NRF)",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Not available",
     "date": "12th - 14th May 2025",
     "time": "Not available",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Trade Association",
+    "company_size": "51-200 employees",
+    "company_hq_address": "1101 New York Ave NW, Washington, DC 20005, United States",
+    "company_hq_country": "United States",
+    "company_international": "No"
   },
   {
     "name": "Meimei Ding",
     "position": "Founder,",
     "company": "DFO International",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to unlock the potential for international growth",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Michelle Lau",
@@ -777,7 +1162,12 @@
     "session_title": "Leading the AI Revolution",
     "date": "13 May 2025",
     "time": "16:10 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "E-commerce",
+    "company_size": "Over 100,000 employees",
+    "company_hq_address": "969 West Wen Yi Road, Yu Hang District, Hangzhou, Zhejiang, China",
+    "company_hq_country": "China",
+    "company_international": "Yes"
   },
   {
     "name": "Nadine Graf",
@@ -787,7 +1177,12 @@
     "session_title": "Shaping the Retail Industry Through the Future of the Consumer",
     "date": "14 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Cosmetics",
+    "company_size": "Over 60,000 employees",
+    "company_hq_address": "767 Fifth Avenue, New York, NY 10153, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Nelson Sam",
@@ -797,7 +1192,12 @@
     "session_title": "Shaping the Retail Industry Through the Future of the Consumer",
     "date": "14 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Technology",
+    "company_size": "73,541 employees",
+    "company_hq_address": "Salesforce Tower, 415 Mission Street, San Francisco, CA 94105, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Oliver Vernon-Harcourt",
@@ -807,7 +1207,12 @@
     "session_title": "Shaping the Retail Industry Through the Future of the Consumer",
     "date": "14 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Professional Services",
+    "company_size": "Over 415,000 employees",
+    "company_hq_address": "30 Rockefeller Plaza, New York, NY 10112, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Pallak Seth",
@@ -817,7 +1222,12 @@
     "session_title": "Overcoming Sourcing and Supply Chain Challenges in a Volatile World",
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Fashion Manufacturing and Sourcing",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "India",
+    "company_international": "Yes"
   },
   {
     "name": "Pareiya Gupta",
@@ -827,37 +1237,57 @@
     "session_title": "Where AI Meets the Aisle – Because Every Shopper Deserves a Personal Touch",
     "date": "13 May 2025",
     "time": "12:50 - 13:50",
-    "location": "50 Crystal Palace Suite"
+    "location": "50 Crystal Palace Suite",
+    "company_type": "Technology",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "Suite 200, 8000 Avalon Boulevard, Alpharetta, GA 30009, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Patrick Chalhoub",
     "position": "Executive Chairman,",
     "company": "Chalhoub Group",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "A Legacy Conversation with Patrick Chalhoub",
     "date": "13 May 2025",
     "time": "15:50 - 16:10",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "12,000 employees",
+    "company_hq_address": "JAFZA View 18 & 19, Jebel Ali Free Zone, Dubai",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Patrick Lasfargues",
     "position": "VP International Partnerships,",
     "company": "Carrefour Group",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How to unlock the potential for international growth",
     "date": "14 May 2025",
     "time": "12:40 - 13:20",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "321,383 employees",
+    "company_hq_address": "33 Avenue Émile Zola, 92100 Boulogne-Billancourt, France",
+    "company_hq_country": "France",
+    "company_international": "Yes"
   },
   {
     "name": "Paul O'Hara",
     "position": "CPO and Property Director,",
     "company": "Halfords",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Approximately 10,000 employees",
+    "company_hq_address": "Icknield Street Drive, Washford West, Redditch, Worcestershire, B98 0DE",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Paul Wright",
@@ -867,7 +1297,12 @@
     "session_title": "Creating special discovery moments for customers",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Technology",
+    "company_size": "30,000 employees",
+    "company_hq_address": "1515 3rd Street, San Francisco, CA 94158, United States",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Paula Coughlan",
@@ -877,37 +1312,57 @@
     "session_title": "Winning with the circular economy – and building better businesses",
     "date": "14 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Approximately 30,000 employees",
+    "company_hq_address": "1 Portal Way, London, W3 6RS, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Peter Ruis",
     "position": "Executive Director,",
     "company": "John Lewis Partnership",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "From Traffic to Revenue: Unlock Platform Success with Retail Media",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "80,000 employees",
+    "company_hq_address": "171 Victoria Street, London SW1E 5NN, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Rami Baitiéh",
     "position": "CEO,",
     "company": "Morrisons",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Rami Baitieh, CEO, Morrisons",
     "date": "14 May 2025",
     "time": "16:20 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "110,000 employees",
+    "company_hq_address": "Hilmore House, Gain Lane, Bradford, BD3 7DL, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Regis Schultz",
     "position": "CEO,",
     "company": "JD Sports",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Regis Schultz, CEO, JD Sports 13-May-2025 10:20 – 10:40 Main Stage Keynote Interview: Britt Olsen, Chief Commercial Officer, On",
     "date": "13 May 2025",
     "time": "15:10 - 15:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Over 60,000 employees",
+    "company_hq_address": "Hollinsbrook Way, Pilsworth, Bury, BL9 8RR, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Reid Nakou",
@@ -917,27 +1372,42 @@
     "session_title": "The World's Coolest Retailers 2025",
     "date": "14 May 2025",
     "time": "14:00 - 14:20",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "René Van Dijk",
     "position": "Director, Digital Strategy and Analytics,",
     "company": "ASICS",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "How Retail & Brand Leaders are Building Connected Consumer Experiences with Data and AI",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Sportswear and Equipment",
+    "company_size": "Approximately 9,000 employees",
+    "company_hq_address": "7-1-1, Minatojima-Nakamachi, Chuo-ku, Kobe, Hyogo 650-8555, Japan",
+    "company_hq_country": "Japan",
+    "company_international": "Yes"
   },
   {
     "name": "Reniera O'Donnell",
     "position": "Executive Lead,",
     "company": "Ellen MacArthur Foundation",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Winning with the circular economy – and building better businesses",
     "date": "14 May 2025",
     "time": "14:20 - 14:50",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Non-profit organization",
+    "company_size": "51-200 employees",
+    "company_hq_address": "The Sail Loft, 42 Medina Road, Cowes, Isle of Wight, PO31 7BX",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Richard Baker",
@@ -947,7 +1417,12 @@
     "session_title": "30 Main Stage The Power Interview",
     "date": "14 May 2025",
     "time": "09:05 - 09:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "225 Liberty Street, New York, NY 10281, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Richard Bayer",
@@ -957,27 +1432,42 @@
     "session_title": "The Gen Z Consumer - Insights and Buying Habits",
     "date": "14 May 2025",
     "time": "12:50 - 13:50",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Financial Technology",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Australia",
+    "company_international": "Yes"
   },
   {
     "name": "Roisin Currie",
     "position": "Chief Executive,",
     "company": "Greggs",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "how to learn from challenger brands and to adopt a different way of connecting with customers",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Food Retail",
+    "company_size": "25,000 employees",
+    "company_hq_address": "Greggs House, Quorum Business Park, Newcastle upon Tyne, NE12 8BU, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Rolf Schumann",
     "position": "CEO,",
     "company": "Schwarz Digits",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "00 Main Stage Retail in an Uncertain Time",
     "date": "13 May 2025",
     "time": "10:40 - 11:00",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Romy Miller",
@@ -987,17 +1477,27 @@
     "session_title": "Growing Disruptive Retail Brands",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Food & Beverage",
+    "company_size": "11-50 employees",
+    "company_hq_address": "Not available",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Roy Horgan",
     "position": "CEO UK & Ireland & SEVP Strategy, Marketing & Communications,",
     "company": "VusionGroup",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "AI-Driven, People-Powered, Store-Centric",
     "date": "14 May 2025",
     "time": "12:10 - 12:50",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Sandra Stanley",
@@ -1007,37 +1507,57 @@
     "session_title": "AI’s real-world impact on retail",
     "date": "13 May 2025",
     "time": "15:00 - 15:20",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Customer data science",
+    "company_size": "Approximately 2,500 employees",
+    "company_hq_address": "184 Shepherds Bush Road, London W6 7NL, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Scott Fyfe",
     "position": "CEO,",
     "company": "David Jones",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Not available",
     "date": "12th - 14th May 2025",
     "time": "Not available",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "86-108 Castlereagh St, Sydney NSW 2000, Australia",
+    "company_hq_country": "Australia",
+    "company_international": "No"
   },
   {
     "name": "Scott Price",
     "position": "Group Chief Executive,",
     "company": "DFI Retail Group",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Growth Drivers: Where is global retail growth coming from?",
     "date": "13 May 2025",
     "time": "17:20 - 17:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Over 230,000 employees",
+    "company_hq_address": "21/F Devon House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
+    "company_hq_country": "Hong Kong",
+    "company_international": "Yes"
   },
   {
     "name": "Sean Biddick",
     "position": "Managing Director and Partner,",
     "company": "BCG",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Tech-Enabled Teams",
     "date": "13 May 2025",
     "time": "11:30 - 12:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Management Consulting",
+    "company_size": "25,000+ employees",
+    "company_hq_address": "Exchange Place, 31 St James Ave, Boston, MA 02116, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Selvane Mohandas du Ménil",
@@ -1047,7 +1567,12 @@
     "session_title": "Winning ways of delivering experience, service and building loyalty",
     "date": "13 May 2025",
     "time": "11:00 - 11:30",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Retail Association",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Belgium",
+    "company_international": "Yes"
   },
   {
     "name": "Sharmila Murat",
@@ -1057,7 +1582,12 @@
     "session_title": "International Expansion in a Changing World",
     "date": "13 May 2025",
     "time": "14:40 - 15:40",
-    "location": "40 Crystal Palace Suite"
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Food & Beverage",
+    "company_size": "2000+ employees",
+    "company_hq_address": "Sky Tower, Al Reem Island, P.O. Box 37725, Abu Dhabi",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Simon Dyer",
@@ -1067,7 +1597,12 @@
     "session_title": "The Engine Behind eCommerce Growth - Extending your Assortment Online, Profitably",
     "date": "14 May 2025",
     "time": "12:50 - 13:50",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Technology",
+    "company_size": "800+ employees",
+    "company_hq_address": "83 Avenue de la Grande Armée, 75116 Paris, France",
+    "company_hq_country": "France",
+    "company_international": "Yes"
   },
   {
     "name": "Simon Pakenham-Walsh",
@@ -1077,7 +1612,12 @@
     "session_title": "How Retail & Brand Leaders are Building Connected Consumer Experiences with Data and AI",
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Chelsea House, Westgate, London, W5 1DR, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Simon Vincent OBE",
@@ -1087,27 +1627,42 @@
     "session_title": "Winning Customer Experience from Beyond Retail",
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Hospitality",
+    "company_size": "141,000 employees",
+    "company_hq_address": "7930 Jones Branch Drive, McLean, VA 22102, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Sir Terry Leahy",
     "position": "Senior Advisor,",
     "company": "Clayton, Dubilier & Rice",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Driving Growth in PE, VC or PLCs",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Private Equity",
+    "company_size": "Not available",
+    "company_hq_address": "375 Park Avenue, 18th Floor, New York, NY 10152, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Sjoerd Holleman",
     "position": "SVP Strategy, Product & Analytics,",
     "company": "Albert Heijn",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Shaping the Retail Industry Through the Future of the Consumer",
     "date": "14 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "100,000+ employees",
+    "company_hq_address": "Provincialeweg 11, 1506 MA Zaandam, Netherlands",
+    "company_hq_country": "Netherlands",
+    "company_international": "No"
   },
   {
     "name": "Sonia Abrahams",
@@ -1117,17 +1672,27 @@
     "session_title": "AI in Retail: The Customer’s Perspective",
     "date": "14 May 2025",
     "time": "16:40 - 17:00",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Public Relations and Communications",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "16 Lincoln's Inn Fields, London WC2A 3ED, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Stefan Vanoverbeke",
     "position": "Retail Markets Manager,",
     "company": "Ingka Group (IKEA)",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Growth Drivers: Where is global retail growth coming from?",
     "date": "13 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "More than 170,000 employees",
+    "company_hq_address": "Olof Palmestraat 1, 2616 Delft, Netherlands",
+    "company_hq_country": "Netherlands",
+    "company_international": "Yes"
   },
   {
     "name": "Suzanne Long",
@@ -1137,7 +1702,12 @@
     "session_title": "Winning with the circular economy – and building better businesses",
     "date": "14 May 2025",
     "time": "16:00 - 16:30",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "300,000 employees",
+    "company_hq_address": "250 Parkcenter Blvd, Boise, ID 83706, United States",
+    "company_hq_country": "United States",
+    "company_international": "No"
   },
   {
     "name": "Suzy McClintock",
@@ -1147,7 +1717,12 @@
     "session_title": "Quick Commerce",
     "date": "13 May 2025",
     "time": "12:10 - 12:30",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Food delivery",
+    "company_size": "2000-5000 employees",
+    "company_hq_address": "The River Building, Level 1 Cannon Bridge House, 1 Cousin Lane, London, EC4R 3TE, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Tasia Filippatos",
@@ -1157,7 +1732,12 @@
     "session_title": "Future of Physical Retailing",
     "date": "13 May 2025",
     "time": "17:00 - 17:30",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "500 South Buena Vista Street, Burbank, CA 91521, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Thomas Dijkman",
@@ -1167,7 +1747,12 @@
     "session_title": "The Next Generations in Retail: Gen Z and Gen Alpha as Employee and Consumer",
     "date": "14 May 2025",
     "time": "14:40 - 15:40",
-    "location": "40 Crystal Palace Suite"
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Retail",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Netherlands",
+    "company_international": "Yes"
   },
   {
     "name": "Thomas Harms",
@@ -1177,27 +1762,42 @@
     "session_title": "How to deliver growth and resilience as a New World Order emerges",
     "date": "13 May 2025",
     "time": "08:00 - 09:00",
-    "location": "Track 3"
+    "location": "Track 3",
+    "company_type": "Strategy Consulting",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "No"
   },
   {
     "name": "Tim Danaher",
     "position": "Partner, Consumer Industries Group Global Lead,",
     "company": "Brunswick Group",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "AI in Retail: The Customer’s Perspective",
     "date": "14 May 2025",
     "time": "14:50 - 15:10",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Public Relations and Communications",
+    "company_size": "500-1000 employees",
+    "company_hq_address": "16 St James's Square, London SW1Y 4LB, United Kingdom",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Tim Steiner",
     "position": "CEO,",
     "company": "Ocado",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Growth Drivers: Where is global retail growth coming from?",
     "date": "13 May 2025",
     "time": "09:50 - 10:20",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Technology",
+    "company_size": "19,000 employees",
+    "company_hq_address": "Buildings One & Two, Trident Place, Mosquito Way, Hatfield, Hertfordshire, AL10 9UL",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Tjeerd Jegen",
@@ -1207,7 +1807,12 @@
     "session_title": "Driving Growth in PE, VC or PLCs",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 2"
+    "location": "Track 2",
+    "company_type": "Bicycle and Parts Manufacturing",
+    "company_size": "Approximately 3,100 employees",
+    "company_hq_address": "Industrieweg 4, 8444 AR Heerenveen, Netherlands",
+    "company_hq_country": "Netherlands",
+    "company_international": "Yes"
   },
   {
     "name": "Tjeerd van der Zee",
@@ -1217,17 +1822,27 @@
     "session_title": "How to deliver growth and resilience as a New World Order emerges",
     "date": "13 May 2025",
     "time": "07:45 - 08:45",
-    "location": "45 Crystal Palace Suite"
+    "location": "45 Crystal Palace Suite",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Todd Snyder",
     "position": "Founder,",
     "company": "Todd Snyder",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Todd Snyder, Founder, Todd Snyder",
     "date": "14 May 2025",
     "time": "10:20 - 10:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "51-200 employees",
+    "company_hq_address": "242 Elizabeth St, New York, NY 10012, United States",
+    "company_hq_country": "United States",
+    "company_international": "No"
   },
   {
     "name": "Tommy Resin",
@@ -1237,7 +1852,12 @@
     "session_title": "The Engine Behind eCommerce Growth - Extending your Assortment Online, Profitably",
     "date": "14 May 2025",
     "time": "12:50 - 13:50",
-    "location": "Not available"
+    "location": "Not available",
+    "company_type": "Retail",
+    "company_size": "201-500 employees",
+    "company_hq_address": "Arenavägen 63, 121 77 Johanneshov, Sweden",
+    "company_hq_country": "Sweden",
+    "company_international": "No"
   },
   {
     "name": "Tracy Bay",
@@ -1247,7 +1867,12 @@
     "session_title": "Leading the AI Revolution",
     "date": "13 May 2025",
     "time": "16:10 - 16:40",
-    "location": "Main Stage"
+    "location": "Main Stage",
+    "company_type": "Retail",
+    "company_size": "10,001+ employees",
+    "company_hq_address": "225 Liberty Street, New York, NY 10281, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Tristia Harrison DBE",
@@ -1257,17 +1882,27 @@
     "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Retail",
+    "company_size": "Over 28,000 employees",
+    "company_hq_address": "Desford Road, Enderby, Leicester, LE19 4AT",
+    "company_hq_country": "United Kingdom",
+    "company_international": "Yes"
   },
   {
     "name": "Victoria Jenkins",
     "position": "Founder and CEO,",
     "company": "Unhidden",
-    "description": "12th - 14th May 2025 | Hilton Park Lane | London",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
     "session_title": "Growing Disruptive Retail Brands",
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Fashion",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Wern-Yuen Tan",
@@ -1277,6 +1912,11 @@
     "session_title": "Asia",
     "date": "14 May 2025",
     "time": "14:25 - 14:45",
-    "location": "Track 1"
+    "location": "Track 1",
+    "company_type": "Investment",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "China",
+    "company_international": "Yes"
   }
 ]

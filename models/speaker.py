@@ -19,6 +19,12 @@ class Speaker:
     date: str = "Not available"
     time: str = "Not available"
     location: str = "Not available"
+    # Company enrichment fields
+    company_type: str = "Not available"
+    company_size: str = "Not available"
+    company_hq_address: str = "Not available"
+    company_hq_country: str = "Not available"
+    company_international: str = "Not available"
     
     @classmethod
     def from_dict(cls, data: Dict) -> 'Speaker':
@@ -31,7 +37,13 @@ class Speaker:
             session_title=data.get('session_title', 'Not available'),
             date=data.get('date', 'Not available'),
             time=data.get('time', 'Not available'),
-            location=data.get('location', 'Not available')
+            location=data.get('location', 'Not available'),
+            # Company enrichment fields
+            company_type=data.get('company_type', 'Not available'),
+            company_size=data.get('company_size', 'Not available'),
+            company_hq_address=data.get('company_hq_address', 'Not available'),
+            company_hq_country=data.get('company_hq_country', 'Not available'),
+            company_international=data.get('company_international', 'Not available')
         )
     
     def to_dict(self) -> Dict:

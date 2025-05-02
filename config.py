@@ -35,3 +35,9 @@ SAVE_PROGRESS_INTERVAL = 10  # Save progress after every N speakers
 STREAMLIT_PORT = 8501
 STREAMLIT_TITLE = "World Retail Congress Speakers"
 STREAMLIT_FAVICON = "🌎"
+
+# OpenAI settings
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_MODEL = "gpt-4-turbo"  # Using a model that supports web browsing
+ENABLE_COMPANY_ENRICHMENT = os.getenv("ENABLE_COMPANY_ENRICHMENT", "true").lower() == "true"
+ENABLE_WEB_ACCESS = True  # Allow the LLM to access the web for company information

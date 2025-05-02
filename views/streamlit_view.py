@@ -11,6 +11,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
+import pytz
 
 # Add the project root directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -54,109 +55,32 @@ class StreamlitView:
             }
         )
         
-        # Custom CSS for dark theme and better mobile experience
+        # Simple CSS for better visualization - using light theme compatible styling
         st.markdown("""
         <style>
-        /* Dark theme colors */
-        :root {
-            --primary-color: #4CAF50;
-            --background-color: #121212;
-            --secondary-background-color: #1e1e1e;
-            --text-color: #f0f2f6;
-            --font: 'Roboto', sans-serif;
-        }
-        
-        /* Apply dark theme */
-        .stApp {
-            background-color: var(--background-color);
-            color: var(--text-color);
-        }
-        
-        .stSidebar {
-            background-color: var(--secondary-background-color);
-        }
-        
-        /* Style dataframes for dark theme */
+        /* Basic styling that works well with light theme */
         .stDataFrame {
-            background-color: var(--secondary-background-color);
-            border-radius: 5px;
+            overflow-x: auto !important;
         }
         
-        /* Style buttons */
-        .stButton button {
-            background-color: var(--primary-color);
-            color: white;
-            border-radius: 4px;
-            padding: 0.5rem 1rem;
-            border: none;
-            transition: all 0.3s ease;
+        /* Ensure text is visible on light background */
+        .dataframe {
+            color: #333333 !important;
         }
         
-        .stButton button:hover {
-            background-color: #388E3C;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        /* Make sure headers are visible */
+        th {
+            background-color: #f0f2f6 !important;
+            color: #333333 !important;
         }
         
-        /* Style tabs */
-        .stTabs [data-baseweb="tab-list"] {
-            gap: 8px;
+        /* Ensure row colors alternate properly */
+        tr:nth-child(even) {
+            background-color: #f9f9f9 !important;
         }
         
-        .stTabs [data-baseweb="tab"] {
-            background-color: var(--secondary-background-color);
-            border-radius: 4px 4px 0 0;
-            padding: 8px 16px;
-            border: none;
-        }
-        
-        .stTabs [aria-selected="true"] {
-            background-color: var(--primary-color);
-            color: white;
-        }
-        
-        /* Make the app more mobile-friendly */
-        @media (max-width: 768px) {
-            .stApp {
-                padding: 0.5rem !important;
-            }
-            
-            /* Adjust font sizes for mobile */
-            h1 {
-                font-size: 1.5rem !important;
-            }
-            h2 {
-                font-size: 1.3rem !important;
-            }
-            h3 {
-                font-size: 1.1rem !important;
-            }
-            
-            /* Make dataframes scroll horizontally on mobile */
-            .stDataFrame {
-                overflow-x: auto !important;
-            }
-            
-            /* Adjust chart sizes for mobile */
-            .js-plotly-plot {
-                max-height: 300px !important;
-            }
-        }
-        
-        /* Style charts for dark theme */
-        .js-plotly-plot {
-            background-color: var(--secondary-background-color);
-            border-radius: 5px;
-            padding: 10px;
-        }
-        
-        /* Style text elements */
-        h1, h2, h3, h4, h5, h6 {
-            color: var(--text-color);
-        }
-        
-        /* Style info, success, warning boxes */
-        .stAlert {
-            border-radius: 4px;
+        tr:nth-child(odd) {
+            background-color: #ffffff !important;
         }
         </style>
         """, unsafe_allow_html=True)
@@ -210,59 +134,70 @@ class StreamlitView:
         # Add a column for the speaker index
         speakers_df.insert(0, "#", range(1, len(speakers_df) + 1))
         
-        # Display the DataFrame
-        st.dataframe(
-            speakers_df,
-            column_config={
-                "#": st.column_config.NumberColumn(
-                    "Index",
-                    help="Speaker index",
-                    width="small",
-                ),
-                "name": st.column_config.TextColumn(
-                    "Name",
-                    help="Speaker name",
-                    width="medium",
-                ),
-                "position": st.column_config.TextColumn(
-                    "Position",
-                    help="Speaker position",
-                    width="medium",
-                ),
-                "company": st.column_config.TextColumn(
-                    "Company",
-                    help="Speaker company",
-                    width="medium",
-                ),
-                "description": st.column_config.TextColumn(
-                    "Description",
-                    help="Speaker description",
-                    width="large",
-                ),
-                "session_title": st.column_config.TextColumn(
-                    "Session Title",
-                    help="Session title",
-                    width="large",
-                ),
-                "date": st.column_config.TextColumn(
-                    "Date",
-                    help="Session date",
-                    width="small",
-                ),
-                "time": st.column_config.TextColumn(
-                    "Time",
-                    help="Session time",
-                    width="small",
-                ),
-                "location": st.column_config.TextColumn(
-                    "Location",
-                    help="Session location",
-                    width="small",
-                ),
-            },
-            hide_index=True,
-            use_container_width=True,
-        )
+        # Create tabs for different views
+        speaker_info_tab, session_info_tab = st.tabs(["Speaker Information", "Session Information"])
+        
+        with speaker_info_tab:
+            st.markdown("### Speaker and Company Details")
+            
+            # Create a copy of the dataframe with renamed columns
+            speaker_info_df = speakers_df.copy()
+            
+            # Rename columns to remove "company_" prefix
+            column_mapping = {
+                'company_type': 'type',
+                'company_size': 'size',
+                'company_hq_country': 'hq_country',
+                'company_international': 'international'
+            }
+            
+            speaker_info_df = speaker_info_df.rename(columns=column_mapping)
+            
+            # Select columns for display
+            display_columns = [
+                "name", "position", "company",
+                "type", "size", "hq_country", "international"
+            ]
+            
+            # Use the basic st.table for better light theme compatibility
+            st.table(speaker_info_df[display_columns].reset_index(drop=True))
+        
+        with session_info_tab:
+            st.markdown("### Session Details")
+            
+            # Create a copy of the dataframe with selected columns
+            session_df = speakers_df[["name", "session_title", "description", "date", "time", "location"]].copy()
+            
+            # Truncate long descriptions to make the column narrower
+            session_df['description'] = session_df['description'].str.slice(0, 100) + '...'
+            
+            # Create a new column combining date and time
+            session_df['date_time'] = session_df['date'] + ' ' + session_df['time']
+            
+            # Select and reorder columns for display
+            display_columns = ["name", "session_title", "description", "date_time", "location"]
+            
+            # Use a dataframe for better handling of sessions not assigned to speakers
+            st.dataframe(
+                session_df[display_columns],
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "name": "Speaker",
+                    "session_title": "Session Title",
+                    "description": "Description",
+                    "date_time": "Date & Time",
+                    "location": "Location"
+                }
+            )
+        
+        # Add an expander for viewing all data if needed
+        with st.expander("View Complete Data (All Columns)"):
+            st.dataframe(
+                speakers_df,
+                hide_index=True,
+                use_container_width=True,
+            )
     
     def display_speaker_details(self, speaker: Speaker):
         """
@@ -280,6 +215,19 @@ class StreamlitView:
             st.markdown(f"**Position:** {speaker.position}")
             st.markdown(f"**Company:** {speaker.company}")
             
+            # Display company enrichment data if available
+            if speaker.company_type != "Not available":
+                st.markdown(f"**Type:** {speaker.company_type}")
+                
+            if speaker.company_size != "Not available":
+                st.markdown(f"**Size:** {speaker.company_size}")
+                
+            if speaker.company_hq_country != "Not available":
+                st.markdown(f"**HQ Country:** {speaker.company_hq_country}")
+                
+            if speaker.company_international != "Not available":
+                st.markdown(f"**International:** {speaker.company_international}")
+            
             if speaker.date != "Not available":
                 st.markdown(f"**Date:** {speaker.date}")
             
@@ -288,10 +236,17 @@ class StreamlitView:
             
             if speaker.location != "Not available":
                 st.markdown(f"**Location:** {speaker.location}")
+            
         
         with col2:
             if speaker.session_title != "Not available":
                 st.markdown(f"**Session Title:** {speaker.session_title}")
+            
+            # Display company headquarters address if available
+            if speaker.company_hq_address != "Not available":
+                st.markdown("**Headquarters Address:**")
+                st.markdown(speaker.company_hq_address)
+            
             
             if speaker.description != "No description available":
                 st.markdown("**Description:**")
@@ -308,8 +263,8 @@ class StreamlitView:
         speakers_df = pd.DataFrame([s.to_dict() for s in self.speaker_collection.speakers])
         
         # Create tabs for different visualization categories
-        company_tab, date_tab, location_tab, time_tab, network_tab = st.tabs([
-            "Companies", "Dates", "Locations", "Time Slots", "Network Analysis"
+        company_tab, size_tab, international_tab, date_tab, location_tab, time_tab, network_tab = st.tabs([
+            "Companies", "Size", "International", "Dates", "Locations", "Time Slots", "Network Analysis"
         ])
         
         # ---- COMPANY STATISTICS ----
@@ -357,7 +312,7 @@ class StreamlitView:
                     top_companies,
                     path=['Company'],
                     values='Count',
-                    title='Company Representation',
+                    title='Companies Representation',
                     height=400,
                     color='Count',
                     color_continuous_scale='Blues',
@@ -367,6 +322,150 @@ class StreamlitView:
                 st.plotly_chart(fig, use_container_width=True)
             
             # No additional chart needed
+        
+        # ---- SIZE STATISTICS ----
+        with size_tab:
+            st.markdown("### Company Size Distribution")
+            
+            # Filter out 'Not available' sizes
+            company_size_df = speakers_df[speakers_df['company_size'] != 'Not available'].copy()
+            
+            if not company_size_df.empty:
+                # Count by size
+                size_counts = company_size_df['company_size'].value_counts().reset_index()
+                size_counts.columns = ['Size', 'Count']
+                size_counts = size_counts.sort_values('Count', ascending=False)
+                
+                # Create an improved bar chart for sizes
+                fig = px.bar(
+                    size_counts,
+                    x='Size',
+                    y='Count',
+                    title='Company Size Distribution',
+                    labels={'Count': 'Number of Companies', 'Size': 'Company Size'},
+                    height=500,
+                    color='Count',
+                    color_continuous_scale='Viridis',
+                    text='Count',
+                )
+                fig.update_xaxes(tickangle=45, title_font=dict(size=14))
+                fig.update_yaxes(title_font=dict(size=14))
+                fig.update_traces(texttemplate='%{text:.0f}', textposition='outside', marker_line_width=1.5)
+                fig.update_coloraxes(showscale=False)
+                fig.update_layout(
+                    title_font=dict(size=18),
+                    bargap=0.2,
+                    plot_bgcolor='rgba(240,240,240,0.2)'
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("No company size information available.")
+            
+            # Enrichment rate for size
+            enriched_size_count = len(speakers_df[speakers_df['company_size'] != 'Not available'])
+            total_count = len(speakers_df)
+            enrichment_rate = (enriched_size_count / total_count) * 100 if total_count > 0 else 0
+            
+            st.markdown(f"""
+            ### Size Enrichment Statistics
+            - **Total Companies**: {total_count}
+            - **Companies with Size Data**: {enriched_size_count}
+            - **Enrichment Rate**: {enrichment_rate:.2f}%
+            """)
+            
+            # Create a progress bar for enrichment rate
+            st.progress(enrichment_rate / 100)
+        
+        # ---- INTERNATIONAL STATISTICS ----
+        with international_tab:
+            st.markdown("### International vs. Domestic Companies")
+            
+            # Create columns for different visualizations
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                # Count all international statuses including 'Not available'
+                all_international_counts = speakers_df['company_international'].value_counts().reset_index()
+                all_international_counts.columns = ['International', 'Count']
+                
+                # Create pie chart for all international statuses
+                fig = px.pie(
+                    all_international_counts,
+                    values='Count',
+                    names='International',
+                    title='All International Statuses (Including Not Available)',
+                    height=400,
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            
+            with col2:
+                # Filter out 'Not available' international statuses
+                international_df = speakers_df[speakers_df['company_international'] != 'Not available'].copy()
+                
+                if not international_df.empty:
+                    # Count by international status
+                    international_counts = international_df['company_international'].value_counts().reset_index()
+                    international_counts.columns = ['International', 'Count']
+                    
+                    # Create pie chart for international statuses
+                    fig = px.pie(
+                        international_counts,
+                        values='Count',
+                        names='International',
+                        title='Enriched International vs. Domestic Companies',
+                        height=400,
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.info("No enriched international status information available.")
+            
+            # Enrichment rate for international status
+            enriched_international_count = len(speakers_df[speakers_df['company_international'] != 'Not available'])
+            total_count = len(speakers_df)
+            enrichment_rate = (enriched_international_count / total_count) * 100 if total_count > 0 else 0
+            
+            st.markdown(f"""
+            ### International Status Enrichment Statistics
+            - **Total Companies**: {total_count}
+            - **Companies with International Status Data**: {enriched_international_count}
+            - **Enrichment Rate**: {enrichment_rate:.2f}%
+            """)
+            
+            # Create a progress bar for enrichment rate
+            st.progress(enrichment_rate / 100)
+            
+            # Company HQ Country Analysis
+            st.markdown("### Headquarters by Country")
+            
+            # Filter out 'Not available' HQ countries
+            hq_country_df = speakers_df[speakers_df['company_hq_country'] != 'Not available'].copy()
+            
+            if not hq_country_df.empty:
+                # Count by HQ country
+                country_counts = hq_country_df['company_hq_country'].value_counts().reset_index()
+                country_counts.columns = ['Country', 'Count']
+                country_counts = country_counts.sort_values('Count', ascending=False)
+                
+                # Create bar chart for HQ countries
+                fig = px.bar(
+                    country_counts,
+                    x='Country',
+                    y='Count',
+                    title='Headquarters by Country',
+                    labels={'Count': 'Number of Companies', 'Country': ''},
+                    height=500,
+                    color='Count',
+                    color_continuous_scale='Blues',
+                    text='Count',
+                )
+                fig.update_xaxes(tickangle=45)
+                fig.update_traces(texttemplate='%{text:.0f}', textposition='outside')
+                fig.update_coloraxes(showscale=False)
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("No headquarters information available.")
+        
+        # ---- DATE STATISTICS ----
         
         # ---- DATE STATISTICS ----
         with date_tab:
@@ -403,7 +502,7 @@ class StreamlitView:
                         labels={'Count': 'Number of Speakers', 'Date': ''},
                         height=400,
                         color='Count',
-                        color_continuous_scale='Greens',
+                        color_continuous_scale='Blues',
                         text='Count',  # Add count as text on bars
                     )
                     # Hide y-axis ticks and numbers, keep title
@@ -430,12 +529,13 @@ class StreamlitView:
                     st.markdown(
                         f"""
                         <div style="
-                            background-color: rgba(76, 175, 80, {intensity/100});
+                            background-color: rgba(100, 149, 237, {intensity/100});
                             padding: 10px;
                             border-radius: 5px;
                             margin-bottom: 10px;
                             display: flex;
                             justify-content: space-between;
+                            color: #333333;
                         ">
                             <span style="font-weight: bold;">{date}</span>
                             <span>{count} speakers</span>
@@ -450,7 +550,7 @@ class StreamlitView:
         with location_tab:
             st.markdown("### Location Statistics")
             
-            location_df = speakers_df[speakers_df['location'] != 'Not available']
+            location_df = speakers_df[speakers_df['location'] != 'Not available'].copy()
             
             if not location_df.empty:
                 # Create columns for different visualizations
@@ -470,7 +570,7 @@ class StreamlitView:
                         labels={'Count': 'Number of Speakers', 'Location': ''},
                         height=400,
                         color='Count',
-                        color_continuous_scale='Reds',
+                        color_continuous_scale='Blues',
                         text='Count',  # Add count as text on bars
                     )
                     # Hide y-axis ticks and numbers, keep title
@@ -496,11 +596,11 @@ class StreamlitView:
                 
                 # Sunburst chart combining date and location
                 if not date_df.empty:
-                    # Create a combined dataframe with date and location
+                    # Create a combined dataframe with date and location (explicit copy)
                     combined_df = speakers_df[
                         (speakers_df['date'] != 'Not available') &
                         (speakers_df['location'] != 'Not available')
-                    ]
+                    ].copy()
                     
                     if not combined_df.empty:
                         # Count speakers by date and location
@@ -522,16 +622,17 @@ class StreamlitView:
         with time_tab:
             st.markdown("### Time Slot Analysis")
             
-            # Filter out 'Not available' times
-            time_df = speakers_df[speakers_df['time'] != 'Not available']
+            # Filter out 'Not available' times and create an explicit copy
+            time_df = speakers_df[speakers_df['time'] != 'Not available'].copy()
             
             if not time_df.empty:
                 # Extract hour from time slot (assuming format like "12:10 - 12:50")
-                time_df['hour'] = time_df['time'].str.extract(r'(\d+):', expand=False).astype(float)
+                time_df.loc[:, 'hour'] = time_df['time'].str.extract(r'(\d+):', expand=False).astype(float)
                 
                 # Count speakers by hour
                 hour_counts = time_df.groupby('hour').size().reset_index()
                 hour_counts.columns = ['Hour', 'Count']
+                hour_counts = hour_counts.copy()  # Create explicit copy
                 
                 # Sort by hour
                 hour_counts = hour_counts.sort_values('Hour')
@@ -559,8 +660,8 @@ class StreamlitView:
                 
                 # Create a heatmap-style visualization of the daily schedule
                 if not date_df.empty:
-                    # Create a combined dataframe with date and hour
-                    combined_df = time_df[time_df['date'] != 'Not available']
+                    # Create a combined dataframe with date and hour (explicit copy)
+                    combined_df = time_df[time_df['date'] != 'Not available'].copy()
                     
                     if not combined_df.empty:
                         # Count speakers by date and hour
@@ -575,7 +676,7 @@ class StreamlitView:
                             title='Conference Schedule Heatmap',
                             labels=dict(x='Hour of Day', y='Date', color='Number of Speakers'),
                             height=400,
-                            color_continuous_scale='Viridis',
+                            color_continuous_scale='Blues',
                         )
                         st.plotly_chart(fig, use_container_width=True)
             else:
@@ -603,11 +704,11 @@ class StreamlitView:
                 y=[1] * len(top_companies),
                 size='Speakers',
                 text='Company',
-                title='Company Network (Bubble Size = Number of Speakers)',
+                title='Companies Network (Bubble Size = Number of Speakers)',
                 labels={'x': '', 'y': ''},
                 height=500,
                 color='Speakers',
-                color_continuous_scale='Viridis',
+                color_continuous_scale='Blues',
             )
             
             # Remove axes and grid for cleaner look
@@ -644,7 +745,7 @@ class StreamlitView:
                     words.extend(title_words)
                 
                 word_counts = Counter(words).most_common(30)
-                word_df = pd.DataFrame(word_counts, columns=['Word', 'Count'])
+                word_df = pd.DataFrame(word_counts, columns=['Word', 'Count']).copy()
                 
                 # Create a bar chart of word frequencies
                 fig = px.bar(
@@ -655,7 +756,7 @@ class StreamlitView:
                     labels={'Count': 'Frequency', 'Word': ''},
                     height=500,
                     color='Count',
-                    color_continuous_scale='Purples',
+                    color_continuous_scale='Blues',
                     text='Count',  # Add count as text on bars
                 )
                 # Remove grid
@@ -693,7 +794,8 @@ class StreamlitView:
             with col2:
                 search_field = st.selectbox(
                     "Search Field",
-                    ["All Fields", "Name", "Company", "Position", "Session Title", "Description", "Location", "Date"]
+                    ["All Fields", "Name", "Company", "Position", "Session Title", "Description", "Location", "Date",
+                     "Type", "Size", "HQ Country", "International"]
                 )
             
             # Perform search
@@ -707,7 +809,11 @@ class StreamlitView:
                             (speakers_df['session_title'].str.lower() == search_term.lower()) |
                             (speakers_df['description'].str.lower() == search_term.lower()) |
                             (speakers_df['location'].str.lower() == search_term.lower()) |
-                            (speakers_df['date'].str.lower() == search_term.lower())
+                            (speakers_df['date'].str.lower() == search_term.lower()) |
+                            (speakers_df['company_type'].str.lower() == search_term.lower()) |
+                            (speakers_df['company_size'].str.lower() == search_term.lower()) |
+                            (speakers_df['company_hq_country'].str.lower() == search_term.lower()) |
+                            (speakers_df['company_international'].str.lower() == search_term.lower())
                         ]
                     else:
                         results_df = speakers_df[
@@ -717,10 +823,30 @@ class StreamlitView:
                             (speakers_df['session_title'].str.lower().str.contains(search_term.lower(), na=False)) |
                             (speakers_df['description'].str.lower().str.contains(search_term.lower(), na=False)) |
                             (speakers_df['location'].str.lower().str.contains(search_term.lower(), na=False)) |
-                            (speakers_df['date'].str.lower().str.contains(search_term.lower(), na=False))
+                            (speakers_df['date'].str.lower().str.contains(search_term.lower(), na=False)) |
+                            (speakers_df['company_type'].str.lower().str.contains(search_term.lower(), na=False)) |
+                            (speakers_df['company_size'].str.lower().str.contains(search_term.lower(), na=False)) |
+                            (speakers_df['company_hq_country'].str.lower().str.contains(search_term.lower(), na=False)) |
+                            (speakers_df['company_international'].str.lower().str.contains(search_term.lower(), na=False))
                         ]
                 else:
-                    field = search_field.lower().replace(" ", "_")
+                    # Map the search field to the actual column name
+                    field_mapping = {
+                        "name": "name",
+                        "company": "company",
+                        "position": "position",
+                        "session title": "session_title",
+                        "description": "description",
+                        "location": "location",
+                        "date": "date",
+                        "type": "company_type",
+                        "size": "company_size",
+                        "hq country": "company_hq_country",
+                        "international": "company_international"
+                    }
+                    
+                    field = field_mapping.get(search_field.lower(), search_field.lower().replace(" ", "_"))
+                    
                     if search_exact:
                         results_df = speakers_df[speakers_df[field].str.lower() == search_term.lower()]
                     else:
@@ -733,11 +859,63 @@ class StreamlitView:
                     results_df.insert(0, "#", range(1, len(results_df) + 1))
                     
                     # Display results
-                    st.dataframe(
-                        results_df,
-                        hide_index=True,
-                        use_container_width=True,
-                    )
+                    # Create a copy with renamed columns
+                    display_results = results_df.copy()
+                    
+                    # Rename columns to remove "company_" prefix
+                    column_mapping = {
+                        'company_type': 'type',
+                        'company_size': 'size',
+                        'company_hq_country': 'hq_country',
+                        'company_international': 'international'
+                    }
+                    
+                    display_results = display_results.rename(columns=column_mapping)
+                    
+                    # Create tabs for different views of search results
+                    search_speaker_tab, search_session_tab = st.tabs(["Speaker Information", "Session Information"])
+                    
+                    with search_speaker_tab:
+                        speaker_columns = [
+                            "name", "position", "company",
+                            "type", "size", "hq_country", "international"
+                        ]
+                        st.table(display_results[speaker_columns].reset_index(drop=True))
+                    
+                    with search_session_tab:
+                        # Create a copy of the dataframe with selected columns
+                        session_df = display_results[["name", "session_title", "description", "date", "time", "location"]].copy()
+                        
+                        # Truncate long descriptions to make the column narrower
+                        session_df['description'] = session_df['description'].str.slice(0, 100) + '...'
+                        
+                        # Create a new column combining date and time
+                        session_df['date_time'] = session_df['date'] + ' ' + session_df['time']
+                        
+                        # Select and reorder columns for display
+                        display_columns = ["name", "session_title", "description", "date_time", "location"]
+                        
+                        # Use a dataframe for better handling of sessions not assigned to speakers
+                        st.dataframe(
+                            session_df[display_columns],
+                            hide_index=True,
+                            use_container_width=True,
+                            column_config={
+                                "name": "Speaker",
+                                "session_title": "Session Title",
+                                "description": "Description",
+                                "date_time": "Date & Time",
+                                "location": "Location"
+                            }
+                        )
+                    
+                    # Add an expander for viewing all data if needed
+                    with st.expander("View Complete Search Results (All Columns)"):
+                        st.dataframe(
+                            results_df,
+                            hide_index=True,
+                            use_container_width=True,
+                        )
                 else:
                     st.warning("No matching speakers found")
         
@@ -745,7 +923,8 @@ class StreamlitView:
             # Create filter options
             st.markdown("### Filter Options")
             
-            col1, col2 = st.columns(2)
+            # Create three columns for more filter options
+            col1, col2, col3 = st.columns(3)
             
             with col1:
                 # Get unique dates and locations for filtering
@@ -760,6 +939,34 @@ class StreamlitView:
                 
                 filter_locations = st.multiselect("Filter by Location", unique_locations)
             
+            with col3:
+                # Add filters for enriched fields
+                unique_company_types = sorted(speakers_df['company_type'].unique())
+                unique_company_types = [t for t in unique_company_types if t != "Not available"]
+                
+                filter_company_types = st.multiselect("Filter by Type", unique_company_types)
+            
+            # Add more filters in a second row
+            col4, col5, col6 = st.columns(3)
+            
+            with col4:
+                unique_company_sizes = sorted(speakers_df['company_size'].unique())
+                unique_company_sizes = [s for s in unique_company_sizes if s != "Not available"]
+                
+                filter_company_sizes = st.multiselect("Filter by Size", unique_company_sizes)
+            
+            with col5:
+                unique_countries = sorted(speakers_df['company_hq_country'].unique())
+                unique_countries = [c for c in unique_countries if c != "Not available"]
+                
+                filter_countries = st.multiselect("Filter by HQ Country", unique_countries)
+            
+            with col6:
+                unique_international = sorted(speakers_df['company_international'].unique())
+                unique_international = [i for i in unique_international if i != "Not available"]
+                
+                filter_international = st.multiselect("Filter by International", unique_international)
+            
             # Apply filters
             filtered_df = speakers_df.copy()
             
@@ -769,8 +976,20 @@ class StreamlitView:
             if filter_locations:
                 filtered_df = filtered_df[filtered_df['location'].isin(filter_locations)]
             
+            if filter_company_types:
+                filtered_df = filtered_df[filtered_df['company_type'].isin(filter_company_types)]
+            
+            if filter_company_sizes:
+                filtered_df = filtered_df[filtered_df['company_size'].isin(filter_company_sizes)]
+            
+            if filter_countries:
+                filtered_df = filtered_df[filtered_df['company_hq_country'].isin(filter_countries)]
+            
+            if filter_international:
+                filtered_df = filtered_df[filtered_df['company_international'].isin(filter_international)]
+            
             # Display filtered results
-            if filter_dates or filter_locations:
+            if filter_dates or filter_locations or filter_company_types or filter_company_sizes or filter_countries or filter_international:
                 if not filtered_df.empty:
                     st.success(f"Found {len(filtered_df)} speakers matching your filters")
                     
@@ -778,11 +997,63 @@ class StreamlitView:
                     filtered_df.insert(0, "#", range(1, len(filtered_df) + 1))
                     
                     # Display results
-                    st.dataframe(
-                        filtered_df,
-                        hide_index=True,
-                        use_container_width=True,
-                    )
+                    # Create a copy with renamed columns
+                    display_filtered = filtered_df.copy()
+                    
+                    # Rename columns to remove "company_" prefix
+                    column_mapping = {
+                        'company_type': 'type',
+                        'company_size': 'size',
+                        'company_hq_country': 'hq_country',
+                        'company_international': 'international'
+                    }
+                    
+                    display_filtered = display_filtered.rename(columns=column_mapping)
+                    
+                    # Create tabs for different views of filtered results
+                    filter_speaker_tab, filter_session_tab = st.tabs(["Speaker Information", "Session Information"])
+                    
+                    with filter_speaker_tab:
+                        speaker_columns = [
+                            "name", "position", "company",
+                            "type", "size", "hq_country", "international"
+                        ]
+                        st.table(display_filtered[speaker_columns].reset_index(drop=True))
+                    
+                    with filter_session_tab:
+                        # Create a copy of the dataframe with selected columns
+                        session_df = display_filtered[["name", "session_title", "description", "date", "time", "location"]].copy()
+                        
+                        # Truncate long descriptions to make the column narrower
+                        session_df['description'] = session_df['description'].str.slice(0, 100) + '...'
+                        
+                        # Create a new column combining date and time
+                        session_df['date_time'] = session_df['date'] + ' ' + session_df['time']
+                        
+                        # Select and reorder columns for display
+                        display_columns = ["name", "session_title", "description", "date_time", "location"]
+                        
+                        # Use a dataframe for better handling of sessions not assigned to speakers
+                        st.dataframe(
+                            session_df[display_columns],
+                            hide_index=True,
+                            use_container_width=True,
+                            column_config={
+                                "name": "Speaker",
+                                "session_title": "Session Title",
+                                "description": "Description",
+                                "date_time": "Date & Time",
+                                "location": "Location"
+                            }
+                        )
+                    
+                    # Add an expander for viewing all data if needed
+                    with st.expander("View Complete Filtered Results (All Columns)"):
+                        st.dataframe(
+                            filtered_df,
+                            hide_index=True,
+                            use_container_width=True,
+                        )
                 else:
                     st.warning("No speakers match your filters")
     
@@ -812,8 +1083,13 @@ class StreamlitView:
         try:
             if os.path.exists(config.OUTPUT_JSON_FILE):
                 mod_time = os.path.getmtime(config.OUTPUT_JSON_FILE)
-                # Format with CET timezone indication
-                return datetime.fromtimestamp(mod_time).strftime("%Y-%m-%d %H:%M:%S CET")
+                # Convert to CET timezone
+                local_time = datetime.fromtimestamp(mod_time)
+                cet_timezone = pytz.timezone('Europe/Paris')  # Paris is in CET/CEST
+                local_timezone = datetime.now().astimezone().tzinfo
+                local_time_with_tz = local_time.replace(tzinfo=local_timezone)
+                cet_time = local_time_with_tz.astimezone(cet_timezone)
+                return cet_time.strftime("%Y-%m-%d %H:%M:%S CET")
             return "Unknown"
         except Exception:
             return "Unknown"
@@ -822,10 +1098,23 @@ class StreamlitView:
         """Run the Streamlit application."""
         # Sidebar controls
         st.sidebar.subheader("Data Collection")
-        
-        # Display last updated time
+        # Display last updated time with custom styling
         last_updated = self.get_last_updated_time()
-        st.sidebar.info(f"Data last updated: {last_updated}")
+        st.sidebar.markdown(
+            f"""
+            <div style="
+                background-color: rgba(100, 149, 237, 0.2);
+                padding: 10px;
+                border-radius: 5px;
+                color: #333333;
+                margin-bottom: 20px;
+            ">
+                <strong>Data last updated:</strong><br/>
+                {last_updated}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
         
         
         if st.sidebar.button("Load Data"):

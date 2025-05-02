@@ -18,7 +18,7 @@ from playwright.async_api import async_playwright, Page, Browser
 
 import config
 from models.speaker import Speaker, SpeakerCollection
-from utils.data_utils import save_to_json, save_to_csv
+from utils.data_utils import save_to_json, save_to_csv, enrich_company_data
 
 # Configure logging
 logging.basicConfig(
@@ -495,6 +495,8 @@ class ScraperController:
             
             # Process all pages of speakers
             all_speakers = []
+            speakers_processed = 0
+            speakers_since_last_enrichment = 0
             
             # Process pages
             for page_num in range(1, config.MAX_PAGES + 1):
@@ -545,15 +547,76 @@ class ScraperController:
                         # Save progress at intervals
                         if len(self.speaker_collection.speakers) % config.SAVE_PROGRESS_INTERVAL == 0:
                             logger.info(f"Saving progress ({len(self.speaker_collection.speakers)} speakers processed)")
-                            self.save_data()
+                            self.save_data(enrich_all=False)
                         
                     except Exception as e:
                         logger.error(f"Error processing speaker {speaker_dict.get('name', 'Unknown')}: {e}")
+                    
+                    # Increment counters
+                    speakers_processed += 1
+                    speakers_since_last_enrichment += 1
+                    
+                    # Enrich and save data every SAVE_PROGRESS_INTERVAL speakers
+                    if speakers_since_last_enrichment >= config.SAVE_PROGRESS_INTERVAL and config.ENABLE_COMPANY_ENRICHMENT:
+                        logger.info(f"Processed {speakers_processed} speakers. Enriching data for the last {speakers_since_last_enrichment} speakers...")
+                        
+                        # Create a temporary collection with just the new speakers
+                        new_speakers = self.speaker_collection.speakers[-speakers_since_last_enrichment:]
+                        
+                        # Enrich just these speakers
+                        for speaker in new_speakers:
+                            # Skip if already enriched
+                            if (speaker.company_type not in ["Not available", ""] and
+                                speaker.company_size not in ["Not available", ""] and
+                                speaker.company_hq_country not in ["Not available", ""]):
+                                logger.info(f"Skipping speaker {speaker.name} - already enriched")
+                                continue
+                                
+                            # Skip if no company information
+                            if speaker.company == "Unknown" or speaker.company == "Not available":
+                                logger.info(f"Skipping speaker {speaker.name} - no company information available")
+                                continue
+                                
+                            # Create a single-speaker collection for enrichment
+                            temp_collection = SpeakerCollection([speaker])
+                            enrich_company_data(temp_collection, api_key=config.OPENAI_API_KEY)
+                        
+                        # Save progress
+                        self.save_data(enrich_all=False)
+                        
+                        # Reset counter
+                        speakers_since_last_enrichment = 0
+                        logger.info(f"Continuing scraping... ({speakers_processed}/{len(all_speakers) if all_speakers else 'unknown'} speakers processed)")
             
             logger.info(f"Processed a total of {len(self.speaker_collection.speakers)} speakers")
             
-            # Save the final data
-            self.save_data()
+            # Enrich any remaining speakers and save the final data
+            if speakers_since_last_enrichment > 0 and config.ENABLE_COMPANY_ENRICHMENT:
+                logger.info(f"Processed {speakers_processed} speakers. Enriching data for the last {speakers_since_last_enrichment} speakers...")
+                
+                # Process only the new speakers that haven't been enriched yet
+                new_speakers = self.speaker_collection.speakers[-speakers_since_last_enrichment:]
+                
+                # Enrich just these speakers
+                for speaker in new_speakers:
+                    # Skip if already enriched
+                    if (speaker.company_type not in ["Not available", ""] and
+                        speaker.company_size not in ["Not available", ""] and
+                        speaker.company_hq_country not in ["Not available", ""]):
+                        logger.info(f"Skipping speaker {speaker.name} - already enriched")
+                        continue
+                        
+                    # Skip if no company information
+                    if speaker.company == "Unknown" or speaker.company == "Not available":
+                        logger.info(f"Skipping speaker {speaker.name} - no company information available")
+                        continue
+                        
+                    # Create a single-speaker collection for enrichment
+                    temp_collection = SpeakerCollection([speaker])
+                    enrich_company_data(temp_collection, api_key=config.OPENAI_API_KEY)
+            
+            # Save the final data (without re-enriching)
+            self.save_data(enrich_all=False)
             
             logger.info("Scraping completed successfully")
             
@@ -566,8 +629,23 @@ class ScraperController:
             # Close the browser
             await self.teardown_browser()
     
-    def save_data(self) -> None:
-        """Save the speaker data to JSON and CSV files."""
+    def save_data(self, enrich_all=False) -> None:
+        """
+        Save the speaker data to JSON and CSV files.
+        
+        Args:
+            enrich_all: Whether to enrich all speakers (True) or skip enrichment (False)
+                        Default is False to avoid re-enriching speakers
+        """
+        # Enrich company data using OpenAI if enabled
+        if config.ENABLE_COMPANY_ENRICHMENT and enrich_all:
+            logger.info("Enriching company data with LLM (will skip already enriched speakers)...")
+            enrich_company_data(self.speaker_collection, api_key=config.OPENAI_API_KEY)
+        elif not enrich_all:
+            logger.info("Skipping full enrichment as it's handled during scraping...")
+        else:
+            logger.info("Company data enrichment is disabled. Skipping...")
+        
         # Convert to list of dictionaries
         data = self.speaker_collection.to_dict_list()
         
@@ -597,10 +675,22 @@ class ScraperController:
 # Function to run the scraper
 async def run_scraper() -> SpeakerCollection:
     """
-    Run the scraper to collect speaker data.
+    Run the scraper to collect speaker data and enrich it with company information.
+    
+    The scraper will:
+    1. Scrape speaker information from the website
+    2. Enrich company data every 10 speakers (configurable via SAVE_PROGRESS_INTERVAL)
+    3. Save progress regularly
+    4. Return the complete collection of speakers with enriched data
     
     Returns:
-        SpeakerCollection containing all scraped speakers
+        SpeakerCollection containing all scraped speakers with enriched company data
     """
+    logger.info("Starting scraper with integrated company data enrichment...")
     controller = ScraperController()
-    return await controller.scrape_speakers()
+    
+    # Scrape the speakers (this will also save the data and enrich company information)
+    speaker_collection = await controller.scrape_speakers()
+    
+    logger.info(f"Scraping and enrichment completed for {len(speaker_collection.speakers)} speakers")
+    return speaker_collection
