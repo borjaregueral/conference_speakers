@@ -4,7 +4,7 @@
     "position": "Co-founder & Co-CEO,",
     "company": "Mirakl",
     "description": "Four years later, both Adrien and Philippe left FNAC to found Mirakl in 2012 and become the first marketplace platform leading the platform revolution. Since then, Mirakl has grown to help over 300 customers launch and scale an online marketplace in more than 40 countries around the world. The company's latest $555M Series E fundraising values the company over $3.5B and places it among the most dynamic players in eCommerce, globally",
-    "session_title": "From Traffic to Revenue: Unlock Platform Success with Retail Media",
+    "session_title": "Don’t Leave Money on the Table: Turn your Commerce Business into a Retail Media Profit Engine",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
     "location": "Track 2",
@@ -23,8 +23,8 @@
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
-    "company_type": "E-commerce",
-    "company_size": "Not available",
+    "company_type": "Retail",
+    "company_size": "1000-5000 employees",
     "company_hq_address": "104 Vasan Udyog Bhavan, Sun Mill Compound, Lower Parel, Mumbai, Maharashtra 400013, India",
     "company_hq_country": "India",
     "company_international": "No"
@@ -40,8 +40,8 @@
     "location": "50 Crystal Palace Suite",
     "company_type": "Technology",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Building 1, 3rd Floor, Candor TechSpace, Sector 48, Gurugram, Haryana 122018, India",
-    "company_hq_country": "India",
+    "company_hq_address": "HQ in Roswell, GA, USA",
+    "company_hq_country": "USA",
     "company_international": "Yes"
   },
   {
@@ -69,7 +69,7 @@
     "time": "15:00 - 15:20",
     "location": "Track 1",
     "company_type": "Non-profit Organization",
-    "company_size": "1-10 employees",
+    "company_size": "Not available",
     "company_hq_address": "Not available",
     "company_hq_country": "Netherlands",
     "company_international": "Yes"
@@ -124,7 +124,7 @@
     "position": "COO,",
     "company": "Pets at Home",
     "description": "Anja joined Pets at Home in 2024 with extensive retail experience in both the UK and Denmark, having held prominent positions at Tesco and Sainsbury’s, and most recently serving as CEO of føtex, a premier supermarket chain in Denmark. Over the course of the last 15 years, Anja has successfully led across all parts of retail operations including commercial, strategy, transformation, supply chain and operational management. Prior to this, Anja was a marketing leader at Johnson & Johnson in Europe and the Middle East following four years as a strategy consultant across a range of industries.",
-    "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
+    "session_title": "Why Inclusive Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
@@ -133,6 +133,21 @@
     "company_hq_address": "Epsom Ave, Stanley Green, Handforth, Wilmslow SK9 3RN, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
+  },
+  {
+    "name": "Arja Taaveniku",
+    "position": "CEO, Home Centre,",
+    "company": "Landmark Retail",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
+    "session_title": "Not available",
+    "date": "12th - 14th May 2025",
+    "time": "Not available",
+    "location": "Not available",
+    "company_type": "Retail",
+    "company_size": "55,000 employees",
+    "company_hq_address": "Oasis Centre, 3rd Floor, Sheikh Zayed Road, Dubai",
+    "company_hq_country": "United Arab Emirates",
+    "company_international": "Yes"
   },
   {
     "name": "Barbara O'Beirne",
@@ -175,7 +190,7 @@
     "location": "Track 1",
     "company_type": "Consulting",
     "company_size": "51-200 employees",
-    "company_hq_address": "The Relay Building, 114 Whitechapel High St, London E1 7PT, United Kingdom",
+    "company_hq_address": "The HKX Building, 3 Pancras Square, London N1C 4AG, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -190,7 +205,7 @@
     "location": "Track 2",
     "company_type": "Retail",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "3450 E Miraloma Ave, Anaheim, CA 92806, United States",
+    "company_hq_address": "3450 East Miraloma Avenue, Anaheim, CA 92806, United States",
     "company_hq_country": "United States",
     "company_international": "No"
   },
@@ -203,9 +218,9 @@
     "date": "13 May 2025",
     "time": "10:20 - 10:40",
     "location": "Main Stage",
-    "company_type": "Footwear and Apparel",
+    "company_type": "Retail",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Pfingstweidstrasse 106, 8005 Zurich",
+    "company_hq_address": "Pfingstweidstrasse 106, 8005 Zurich, Switzerland",
     "company_hq_country": "Switzerland",
     "company_international": "Yes"
   },
@@ -234,7 +249,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 1",
     "company_type": "E-commerce",
-    "company_size": "400+ employees",
+    "company_size": "200-500 employees",
     "company_hq_address": "Haid-und-Neu-Straße 18, 76131 Karlsruhe, Germany",
     "company_hq_country": "Germany",
     "company_international": "Yes"
@@ -265,9 +280,9 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "Not available",
-    "company_hq_address": "Not available",
+    "company_hq_address": "50 Liverpool Street, London EC2M 7PY, United Kingdom",
     "company_hq_country": "United Kingdom",
-    "company_international": "No"
+    "company_international": "Yes"
   },
   {
     "name": "Cheryl Potter",
@@ -279,7 +294,7 @@
     "time": "14:00 - 14:40",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Over 70,000 employees",
+    "company_size": "About 70,000 employees",
     "company_hq_address": "Waterside House, 35 North Wharf Road, London, W2 1NW, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -308,7 +323,7 @@
     "date": "14 May 2025",
     "time": "14:10 - 14:40",
     "location": "Track 2",
-    "company_type": "E-commerce, Fashion",
+    "company_type": "E-commerce, Fashion Retail",
     "company_size": "10,000+ employees",
     "company_hq_address": "Not available",
     "company_hq_country": "China",
@@ -371,7 +386,7 @@
     "company_type": "Market Research",
     "company_size": "11-50 employees",
     "company_hq_address": "28 Liberty Street, 6th Floor, New York, NY 10005, USA",
-    "company_hq_country": "USA",
+    "company_hq_country": "United States",
     "company_international": "Yes"
   },
   {
@@ -399,8 +414,8 @@
     "time": "14:40 - 15:40",
     "location": "40 Crystal Palace Suite",
     "company_type": "Retail",
-    "company_size": "Not available",
-    "company_hq_address": "Not available",
+    "company_size": "10,001+ employees",
+    "company_hq_address": "Max Towers, 10th Floor, Lala Lajpat Rai Road, Sector 16B, Noida, Uttar Pradesh 201301, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -444,7 +459,7 @@
     "time": "16:10 - 16:40",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "More than 100,000 employees",
+    "company_size": "Over 100,000 employees",
     "company_hq_address": "Rosas 1665, Santiago, Chile",
     "company_hq_country": "Chile",
     "company_international": "Yes"
@@ -522,7 +537,7 @@
     "company_size": "Not available",
     "company_hq_address": "The Compass Centre, Nelson Road, Hounslow, TW6 2GW",
     "company_hq_country": "United Kingdom",
-    "company_international": "No"
+    "company_international": "Yes"
   },
   {
     "name": "Frederico Trajano",
@@ -534,8 +549,8 @@
     "time": "16:40 - 17:00",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "approximately 43,000 employees",
-    "company_hq_address": "Rua Arnulfo de Lima, 2385 - Vila Santa Cruz, Franca - SP, 14403-491, Brazil",
+    "company_size": "Approximately 30,000 employees",
+    "company_hq_address": "Rua Arnulfo de Lima, 2385 - Vila Santa Cruz, Franca - SP, 14400-670, Brazil",
     "company_hq_country": "Brazil",
     "company_international": "No"
   },
@@ -550,7 +565,7 @@
     "location": "Not available",
     "company_type": "E-commerce",
     "company_size": "Not available",
-    "company_hq_address": "No. 699 Wangshang Road, Binjiang District, Hangzhou, Zhejiang",
+    "company_hq_address": "No. 969 West Wen Yi Road, Yuhang District, Hangzhou, Zhejiang, China",
     "company_hq_country": "China",
     "company_international": "Yes"
   },
@@ -610,9 +625,24 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "55,000 employees",
-    "company_hq_address": "Landmark Towers, Dubai Marina, Dubai, United Arab Emirates",
+    "company_hq_address": "Oasis Center, 3rd Floor, Sheikh Zayed Road, Al Quoz, P.O. Box 22700, Dubai",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
+  },
+  {
+    "name": "Heather Jackson",
+    "position": "Co-Founder and CEO ,",
+    "company": "GenM",
+    "description": "Heather Jackson is CEO and Co-Founder of GenM - the Menopause Partner for Brands and Home of the MTick, the universal shopping symbol for menopause-friendly products. She is a visionary leader and her personal journey through perimenopause exposed the lack of education, support and product availability, was the catalyst to co-found GenM. The mission is to unite responsible brands and retailers, normalise the menopause conversation, and deliver much-needed choice, trust, and visibility to the menopausal market. Ultimately, empowering women to shop with confidence for products to improve the lived experience of menopause.",
+    "session_title": "Enhancing Experiences for Underserved Customers",
+    "date": "13 May 2025",
+    "time": "12:30 - 12:50",
+    "location": "Track 1",
+    "company_type": "Health and Wellness",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "United Kingdom",
+    "company_international": "No"
   },
   {
     "name": "Heather McIlvaine",
@@ -653,8 +683,8 @@
     "date": "14 May 2025",
     "time": "09:30 - 09:50",
     "location": "Main Stage",
-    "company_type": "Sustainable Fashion",
-    "company_size": "Not available",
+    "company_type": "Sustainable Materials",
+    "company_size": "11-50 employees",
     "company_hq_address": "Renstiernas gata 29, 116 31 Stockholm, Sweden",
     "company_hq_country": "Sweden",
     "company_international": "No"
@@ -686,7 +716,7 @@
     "company_type": "Retail",
     "company_size": "Not available",
     "company_hq_address": "Not available",
-    "company_hq_country": "Not available",
+    "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
   {
@@ -699,8 +729,8 @@
     "time": "Not available",
     "location": "Not available",
     "company_type": "Retail",
-    "company_size": "Approximately 80,000 employees",
-    "company_hq_address": "3 Sheldon Square, Paddington, London, W2 6PX, United Kingdom",
+    "company_size": "Approximately 78,000 employees",
+    "company_hq_address": "3 Sheldon Square, Paddington, London W2 6PX, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -714,7 +744,7 @@
     "time": "13:55 - 14:25",
     "location": "Main Stage",
     "company_type": "Professional Services",
-    "company_size": "Over 415,000 employees",
+    "company_size": "Approximately 415,000 employees",
     "company_hq_address": "30 Rockefeller Plaza, New York, NY 10112, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -729,7 +759,7 @@
     "time": "Not available",
     "location": "Not available",
     "company_type": "Finance",
-    "company_size": "60,000+ employees",
+    "company_size": "More than 60,000 employees",
     "company_hq_address": "1585 Broadway, New York, NY 10036, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -758,10 +788,25 @@
     "date": "14 May 2025",
     "time": "09:05 - 09:30",
     "location": "Main Stage",
-    "company_type": "Brand Development",
-    "company_size": "600+ employees",
+    "company_type": "Brand Management",
+    "company_size": "600 employees",
     "company_hq_address": "1411 Broadway, 4th Floor, New York, NY 10018, USA",
-    "company_hq_country": "USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
+  },
+  {
+    "name": "Jamila Saidi",
+    "position": "Head of Digital Commerce, Culture & Lifestyle,",
+    "company": "UK Department for Business & Trade",
+    "description": "Jamila initially began her career in global marketing communications where over the years she’s held B2C and B2B marketing positions focused on developing strategic value adding initiatives and solutions whether that be for entrepreneurs, high net worth individuals, investors, or large corporates. She has over 20 years’ marketing and business development experience across a range of industries including retail, luxury, creative industries, financial services (private banking & wealth management), professional services and tech. Prior to joining the UK’s trade department, Jamila held various marketing roles in some of the world’s largest financial and professional service institutions including Lloyds Bank Private Banking, Merrill Lynch Global Wealth Management and Grant Thornton.",
+    "session_title": "Not available",
+    "date": "12th - 14th May 2025",
+    "time": "Not available",
+    "location": "Not available",
+    "company_type": "Government",
+    "company_size": "Not available",
+    "company_hq_address": "1 Victoria Street, London, SW1H 0ET, United Kingdom",
+    "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
   {
@@ -774,7 +819,7 @@
     "time": "14:40 - 15:20",
     "location": "Track 1",
     "company_type": "Retail",
-    "company_size": "Over 423,000 employees",
+    "company_size": "Over 300,000 employees",
     "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -804,7 +849,7 @@
     "time": "14:40 - 15:20",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "5000+ employees",
+    "company_size": "1000-5000 employees",
     "company_hq_address": "One Island South, 2 Heung Yip Road, Wong Chuk Hang, Hong Kong",
     "company_hq_country": "Hong Kong",
     "company_international": "Yes"
@@ -835,7 +880,7 @@
     "location": "Track 3",
     "company_type": "Retail",
     "company_size": "Over 53,000 employees",
-    "company_hq_address": "Alshaya Group, Burj Alshaya, Al Soor Street, Al Mirqab, Kuwait City",
+    "company_hq_address": "Office 2001, 20th Floor, Al Tijaria Tower, Al Soor Street, Al Mirqab, Kuwait City",
     "company_hq_country": "Kuwait",
     "company_international": "Yes"
   },
@@ -924,8 +969,8 @@
     "time": "14:25 - 14:45",
     "location": "Track 3",
     "company_type": "Consumer Goods",
-    "company_size": "149,000 employees",
-    "company_hq_address": "Unilever House, 100 Victoria Embankment, London EC4Y 0DY, United Kingdom",
+    "company_size": "148,000 employees",
+    "company_hq_address": "Unilever House, 100 Victoria Embankment, London, EC4Y 0DY, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -940,7 +985,7 @@
     "location": "Main Stage",
     "company_type": "Executive Search and Leadership Consulting",
     "company_size": "Approximately 1,600 employees",
-    "company_hq_address": "353 N. Clark St., Suite 2500, Chicago, IL 60654, USA",
+    "company_hq_address": "353 N Clark St, Chicago, IL 60654, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -949,13 +994,13 @@
     "position": "Retail Lead - UK & Europe,",
     "company": "Russell Reynolds Associates",
     "description": "Her clients span the gamut of the L&H sector: from the world’s largest hotel and cruise companies to international restaurant brands, as well as national pub and coffee businesses. In retail, she works closely with national and international grocers and an exciting portfolio of specialist, lifestyle, and apparel brands. She is experienced working with both listed companies and those backed by private capital.",
-    "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
+    "session_title": "Why Inclusive Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
     "company_type": "Executive Search and Leadership Advisory",
     "company_size": "700+ employees",
-    "company_hq_address": "277 Park Avenue, 38th Floor, New York, NY 10172, USA",
+    "company_hq_address": "277 Park Avenue, New York, NY 10172, USA",
     "company_hq_country": "USA",
     "company_international": "Yes"
   },
@@ -970,7 +1015,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "Over 300,000 employees",
-    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom",
+    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1014,8 +1059,8 @@
     "time": "12:30 - 12:50",
     "location": "Track 1",
     "company_type": "Retail",
-    "company_size": "501-1000 employees",
-    "company_hq_address": "Building 8, Chiswick Park, 566 Chiswick High Road, London W4 5XU, United Kingdom",
+    "company_size": "Not available",
+    "company_hq_address": "Building 8, Chiswick Park, 566 Chiswick High Road, London W4 5XU",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1030,7 +1075,7 @@
     "location": "Main Stage",
     "company_type": "Fashion",
     "company_size": "51-200 employees",
-    "company_hq_address": "49-51 Old Church Street, London, SW3 5BS, United Kingdom",
+    "company_hq_address": "49-51 Old Church St, London SW3 5BS, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1058,11 +1103,11 @@
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
-    "company_type": "Sports",
+    "company_type": "Sports Equipment",
     "company_size": "1-10 employees",
     "company_hq_address": "Not available",
     "company_hq_country": "Australia",
-    "company_international": "No"
+    "company_international": "Yes"
   },
   {
     "name": "Laure Le Gall",
@@ -1089,7 +1134,7 @@
     "time": "14:40 - 15:20",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "Approximately 5000 employees",
+    "company_size": "Approximately 2,000 employees",
     "company_hq_address": "400 Oxford Street, London, W1A 1AB, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1104,8 +1149,8 @@
     "time": "12:20 - 13:00",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "More than 70,000 employees",
-    "company_hq_address": "Arthur Ryan House, 22-24 Parnell Street, Dublin 1, D01 V2V6, Ireland",
+    "company_size": "70,000 employees",
+    "company_hq_address": "Arthur Ryan House, 22-24 Parnell Street, Dublin 1, D01 V2K7",
     "company_hq_country": "Ireland",
     "company_international": "Yes"
   },
@@ -1118,7 +1163,7 @@
     "date": "14 May 2025",
     "time": "15:50 - 16:20",
     "location": "Main Stage",
-    "company_type": "Professional services",
+    "company_type": "Professional Services",
     "company_size": "Over 365,000 employees",
     "company_hq_address": "6 More London Place, London SE1 2DA, United Kingdom",
     "company_hq_country": "United Kingdom",
@@ -1144,7 +1189,7 @@
     "position": "Head of Media & Retail Media,",
     "company": "A.S. Watson Benelux",
     "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
-    "session_title": "From Traffic to Revenue: Unlock Platform Success with Retail Media",
+    "session_title": "Don’t Leave Money on the Table: Turn your Commerce Business into a Retail Media Profit Engine",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
     "location": "Track 2",
@@ -1163,11 +1208,11 @@
     "date": "14 May 2025",
     "time": "17:00 - 17:30",
     "location": "Main Stage",
-    "company_type": "Retail",
+    "company_type": "Not available",
     "company_size": "Not available",
     "company_hq_address": "Not available",
-    "company_hq_country": "United States",
-    "company_international": "No"
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Mark Conway",
@@ -1180,7 +1225,7 @@
     "location": "40 Crystal Palace Suite",
     "company_type": "Retail",
     "company_size": "55,000 employees",
-    "company_hq_address": "Oasis Centre, 3rd Floor, Sheikh Zayed Road, Dubai",
+    "company_hq_address": "Oasis Centre, Al Quoz, Dubai, United Arab Emirates",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -1208,7 +1253,7 @@
     "date": "12th - 14th May 2025",
     "time": "Not available",
     "location": "Not available",
-    "company_type": "Retail",
+    "company_type": "Trade Association",
     "company_size": "51-200 employees",
     "company_hq_address": "1101 New York Ave NW, Washington, DC 20005, USA",
     "company_hq_country": "United States",
@@ -1227,7 +1272,22 @@
     "company_size": "Not available",
     "company_hq_address": "Not available",
     "company_hq_country": "Not available",
-    "company_international": "Not available"
+    "company_international": "Yes"
+  },
+  {
+    "name": "Michael Roth",
+    "position": "SVP International,",
+    "company": "Fabletics",
+    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
+    "session_title": "International Expansion in a Changing World",
+    "date": "13 May 2025",
+    "time": "14:40 - 15:40",
+    "location": "40 Crystal Palace Suite",
+    "company_type": "Retail",
+    "company_size": "500-1000 employees",
+    "company_hq_address": "800 Apollo St, El Segundo, CA 90245, USA",
+    "company_hq_country": "United States",
+    "company_international": "Yes"
   },
   {
     "name": "Michelle Lau",
@@ -1238,8 +1298,8 @@
     "date": "13 May 2025",
     "time": "16:10 - 16:40",
     "location": "Main Stage",
-    "company_type": "Technology",
-    "company_size": "Over 100,000 employees",
+    "company_type": "E-commerce",
+    "company_size": "Over 117,000 employees",
     "company_hq_address": "969 West Wen Yi Road, Yu Hang District, Hangzhou, Zhejiang, China",
     "company_hq_country": "China",
     "company_international": "Yes"
@@ -1283,9 +1343,9 @@
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
     "location": "Track 2",
-    "company_type": "Fashion Manufacturing and Sourcing",
+    "company_type": "Fashion Manufacturing",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "PDS Limited, 3rd Floor, A-Wing, Lotus Corporate Park, Goregaon East, Mumbai, Maharashtra 400063, India",
+    "company_hq_address": "A-42, Gate No. 2, Mayapuri Industrial Area, Phase II, New Delhi, Delhi 110064, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -1300,7 +1360,7 @@
     "location": "50 Crystal Palace Suite",
     "company_type": "Technology",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Building 101, 184 Technology Dr, Irvine, CA 92618, United States",
+    "company_hq_address": "Not available",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -1315,7 +1375,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "12,000 employees",
-    "company_hq_address": "JAFZA View 18 & 19, Jebel Ali Free Zone, Dubai",
+    "company_hq_address": "Jebel Ali, Street 732C, Dubai, United Arab Emirates",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -1339,13 +1399,13 @@
     "position": "CPO and Property Director,",
     "company": "Halfords",
     "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
-    "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
+    "session_title": "Why Inclusive Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
     "company_type": "Retail",
     "company_size": "Approximately 10,000 employees",
-    "company_hq_address": "Icknield Street Drive, Washford West, Redditch, Worcestershire, B98 0DE, United Kingdom",
+    "company_hq_address": "Icknield Street Drive, Washford West, Redditch, Worcestershire, B98 0DE",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
   },
@@ -1359,7 +1419,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "Technology",
-    "company_size": "30,000 employees",
+    "company_size": "32,800 employees",
     "company_hq_address": "1515 3rd Street, San Francisco, CA 94158, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1374,8 +1434,8 @@
     "time": "12:10 - 12:50",
     "location": "Track 1",
     "company_type": "Retail",
-    "company_size": "Approximately 36,000 employees",
-    "company_hq_address": "1 Portal Way, London W3 6RS, United Kingdom",
+    "company_size": "Approximately 30,000 employees",
+    "company_hq_address": "1 Portal Way, London, W3 6RS, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1384,7 +1444,7 @@
     "position": "Executive Director,",
     "company": "John Lewis Partnership",
     "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
-    "session_title": "Debate: Are You Leaving Money on the Table? Turn your Commerce Business into a Retail Media Profit Engine",
+    "session_title": "Don’t Leave Money on the Table: Turn your Commerce Business into a Retail Media Profit Engine",
     "date": "13 May 2025",
     "time": "12:10 - 12:50",
     "location": "Track 2",
@@ -1405,7 +1465,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "110,000 employees",
-    "company_hq_address": "Hilmore House, Gain Lane, Bradford, BD3 7DL",
+    "company_hq_address": "Hilmore House, Gain Lane, Bradford, BD3 7DL, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
   },
@@ -1419,7 +1479,7 @@
     "time": "15:10 - 15:30",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Approximately 60,000 employees",
+    "company_size": "Over 60,000 employees",
     "company_hq_address": "Hollinsbrook Way, Pilsworth, Bury, BL9 8RR, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1450,7 +1510,7 @@
     "location": "Track 2",
     "company_type": "Sportswear and Equipment",
     "company_size": "Approximately 9,000 employees",
-    "company_hq_address": "7-1-1, Minatojima-Nakamachi, Chuo-ku, Kobe-shi, Hyogo 650-8555, Japan",
+    "company_hq_address": "7-1-1, Minatojima-Nakamachi, Chuo-ku, Kobe, Hyogo 650-8555, Japan",
     "company_hq_country": "Japan",
     "company_international": "Yes"
   },
@@ -1465,7 +1525,7 @@
     "location": "Track 1",
     "company_type": "Non-profit organization",
     "company_size": "51-200 employees",
-    "company_hq_address": "The Sail Loft, 42 Medina Road, Cowes, Isle of Wight, PO31 7BX",
+    "company_hq_address": "The Sail Loft, 42 Medina Road, Cowes, PO31 7BX",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1494,7 +1554,7 @@
     "time": "12:50 - 13:50",
     "location": "Not available",
     "company_type": "Financial Technology",
-    "company_size": "201-500 employees",
+    "company_size": "1001-5000 employees",
     "company_hq_address": "Not available",
     "company_hq_country": "Australia",
     "company_international": "Yes"
@@ -1509,7 +1569,7 @@
     "time": "14:00 - 14:40",
     "location": "Track 2",
     "company_type": "Food Retail",
-    "company_size": "25,000 employees",
+    "company_size": "Approximately 25,000 employees",
     "company_hq_address": "Greggs House, Quorum Business Park, Newcastle upon Tyne, NE12 8BU, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
@@ -1568,7 +1628,7 @@
     "date": "13 May 2025",
     "time": "15:00 - 15:20",
     "location": "Track 2",
-    "company_type": "Data Science & Customer Data Analytics",
+    "company_type": "Customer Data Science",
     "company_size": "Approximately 2,500 employees",
     "company_hq_address": "184 Shepherds Bush Road, London W6 7NL, United Kingdom",
     "company_hq_country": "United Kingdom",
@@ -1585,7 +1645,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "Approximately 230,000 employees",
-    "company_hq_address": "21/F Devon House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
+    "company_hq_address": "21/F Devon House, Taikoo Place, 979 King's Road, Quarry Bay",
     "company_hq_country": "Hong Kong",
     "company_international": "Yes"
   },
@@ -1598,8 +1658,8 @@
     "date": "13 May 2025",
     "time": "11:30 - 12:30",
     "location": "Track 3",
-    "company_type": "Consulting",
-    "company_size": "25,000+ employees",
+    "company_type": "Management Consulting",
+    "company_size": "Over 25,000 employees",
     "company_hq_address": "Exchange Place, 31 St James Ave, Boston, MA 02116, USA",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1616,7 +1676,7 @@
     "company_type": "Retail Association",
     "company_size": "Not available",
     "company_hq_address": "Not available",
-    "company_hq_country": "Belgium",
+    "company_hq_country": "Not available",
     "company_international": "Yes"
   },
   {
@@ -1629,8 +1689,8 @@
     "time": "14:40 - 15:40",
     "location": "40 Crystal Palace Suite",
     "company_type": "Food & Beverage",
-    "company_size": "More than 5000 employees",
-    "company_hq_address": "Sky Tower, 17th Floor, Al Reem Island, P.O. Box 37725, Abu Dhabi",
+    "company_size": "2000+ employees",
+    "company_hq_address": "Sky Tower, Al Reem Island, P.O. Box 37725, Abu Dhabi",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -1644,8 +1704,8 @@
     "time": "12:50 - 13:50",
     "location": "Not available",
     "company_type": "Technology",
-    "company_size": "800+ employees",
-    "company_hq_address": "76 Avenue Parmentier, 75011 Paris, France",
+    "company_size": "500-1000 employees",
+    "company_hq_address": "83 Avenue de la Grande Armée, 75116 Paris, France",
     "company_hq_country": "France",
     "company_international": "Yes"
   },
@@ -1659,7 +1719,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Not available",
+    "company_size": "3000+ employees",
     "company_hq_address": "Chelsea House, Westgate, London, W5 1DR, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1674,7 +1734,7 @@
     "time": "14:00 - 14:40",
     "location": "Track 1",
     "company_type": "Hospitality",
-    "company_size": "About 141,000 employees",
+    "company_size": "Over 141,000 employees",
     "company_hq_address": "7930 Jones Branch Drive, McLean, VA 22102, USA",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1749,7 +1809,7 @@
     "time": "16:00 - 16:30",
     "location": "Track 1",
     "company_type": "Retail",
-    "company_size": "300,000 employees",
+    "company_size": "Over 300,000 employees",
     "company_hq_address": "250 Parkcenter Blvd, Boise, ID 83706, USA",
     "company_hq_country": "United States",
     "company_international": "No"
@@ -1780,7 +1840,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "Not available",
-    "company_hq_address": "500 South Buena Vista Street, Burbank, CA 91521, USA",
+    "company_hq_address": "500 South Buena Vista Street, Burbank, CA 91521",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -1796,7 +1856,7 @@
     "company_type": "Retail",
     "company_size": "Not available",
     "company_hq_address": "Not available",
-    "company_hq_country": "Netherlands",
+    "company_hq_country": "Not available",
     "company_international": "Yes"
   },
   {
@@ -1825,7 +1885,7 @@
     "location": "Main Stage",
     "company_type": "Public Relations and Communications",
     "company_size": "500-1000 employees",
-    "company_hq_address": "16 Lincoln's Inn Fields, London WC2A 3ED, United Kingdom",
+    "company_hq_address": "16 St James's Square, London SW1Y 4LB, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1853,7 +1913,7 @@
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
     "location": "Track 2",
-    "company_type": "Bicycle and Bicycle Parts Manufacturing",
+    "company_type": "Bicycle Manufacturing",
     "company_size": "3,100 employees",
     "company_hq_address": "Industrieweg 4, 8444 AR Heerenveen, Netherlands",
     "company_hq_country": "Netherlands",
@@ -1883,7 +1943,7 @@
     "date": "14 May 2025",
     "time": "10:20 - 10:40",
     "location": "Main Stage",
-    "company_type": "Fashion",
+    "company_type": "Retail",
     "company_size": "51-200 employees",
     "company_hq_address": "242 Elizabeth St, New York, NY 10012, United States",
     "company_hq_country": "United States",
@@ -1902,7 +1962,22 @@
     "company_size": "201-500 employees",
     "company_hq_address": "Arenavägen 63, 121 77 Johanneshov, Sweden",
     "company_hq_country": "Sweden",
-    "company_international": "No"
+    "company_international": "Yes"
+  },
+  {
+    "name": "Tracey Clements",
+    "position": "Retail Executive,",
+    "company": "Formerly bp/Boots/Tesco",
+    "description": "Tracey recently moved on from her role as SVP for bp’s vast European retail business, after four years in role. Prior to bp, Tracey was COO at Boots, where she led the UK and ROI operations during the COVID-19 pandemic, and Tesco PLC, where she drove significant improvements in convenience market share, operating margins, and customer propositions as MD of Tesco Express and CEO of One Stop Stores Ltd.",
+    "session_title": "Why Inclusive Leadership Matters More Than Ever",
+    "date": "14 May 2025",
+    "time": "11:30 - 12:10",
+    "location": "Track 1",
+    "company_type": "Not available",
+    "company_size": "Not available",
+    "company_hq_address": "Not available",
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Tracy Bay",
@@ -1924,7 +1999,7 @@
     "position": "Chair / NED,",
     "company": "NEXT",
     "description": "Chief Executive Officer TalkTalk Group PLC from 2017-2024; the UK's only scale challenger ISP.\n\nLed the relocation of the TalkTalk HQ to Salford Greater Manchester in 2018. In 2023/4 led the demerger of the Group to create TalkTalk Consumer, and PXC (UK's fastest growing B2B Telecoms Platform).\n\nPrior to CEO various senior management positions at The Carphone Warehouse, Best Buy Mobile and TalkTalk Group PLC from 2000-2017. Including CMO, Managing Director Consumer, Marketing Director. I joined the TTG PLC Board as an Executive Director in 2014.\n\nIndependent Non-Executive Director at NEXT PLC 2018 to present. Member of Audit, Rem and Nomination committees.\n\nChair of the Board of Trustees of national homelessness charity Crisis 2020 to present.\n\nPreviously spent 10 years as Trustee at Comic Relief and remain an honorary Trustee at Ambitious about Autism.\n\nHumbled receive a DBE for services to Telecommunications in the 2024 New Year honours list.",
-    "session_title": "Why Inclusive Retail Leadership Matters More Than Ever",
+    "session_title": "Why Inclusive Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
@@ -1960,8 +2035,8 @@
     "location": "Track 1",
     "company_type": "Investment",
     "company_size": "Not available",
-    "company_hq_address": "32/F, Tower 1, Times Square, 1 Matheson Street, Causeway Bay",
-    "company_hq_country": "Hong Kong",
+    "company_hq_address": "Not available",
+    "company_hq_country": "China",
     "company_international": "Yes"
   }
 ]
