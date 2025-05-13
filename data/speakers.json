@@ -9,7 +9,7 @@
     "time": "12:10 - 12:50",
     "location": "Track 2",
     "company_type": "Technology",
-    "company_size": "800+ employees",
+    "company_size": "500-1000 employees",
     "company_hq_address": "83 Avenue de la Grande Armée, 75116 Paris, France",
     "company_hq_country": "France",
     "company_international": "Yes"
@@ -24,7 +24,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 1",
     "company_type": "E-commerce (Fashion Retail)",
-    "company_size": "Not available",
+    "company_size": "200-500 employees",
     "company_hq_address": "104 Vasan Udyog Bhavan, Sun Mill Compound, Lower Parel, Mumbai, Maharashtra 400013, India",
     "company_hq_country": "India",
     "company_international": "No"
@@ -38,7 +38,7 @@
     "date": "14 May 2025",
     "time": "16:00 - 17:30",
     "location": "Track 3",
-    "company_type": "Food, Petcare, Confectionery, and more",
+    "company_type": "Conglomerate (primarily Food, Petcare, Confectionery, and other services)",
     "company_size": "About 130,000 employees",
     "company_hq_address": "6885 Elm Street, McLean, VA 22101, USA",
     "company_hq_country": "United States",
@@ -55,7 +55,7 @@
     "location": "50 Crystal Palace Suite",
     "company_type": "Technology",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Building 2, Candor TechSpace, Tikri, Sector 48, Gurugram, Haryana 122018, India",
+    "company_hq_address": "Building 1, 3rd Floor, Candor TechSpace, Sector 48, Gurugram, Haryana 122018, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -83,7 +83,7 @@
     "date": "14 May 2025",
     "time": "15:00 - 15:20",
     "location": "Track 1",
-    "company_type": "Non-profit Organization",
+    "company_type": "Non-profit organization",
     "company_size": "Not available",
     "company_hq_address": "Not available",
     "company_hq_country": "Netherlands",
@@ -99,7 +99,7 @@
     "time": "12:10 - 12:30",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "Not available",
+    "company_size": "Approximately 18,000 employees",
     "company_hq_address": "Buildings One & Two, Trident Place, Mosquito Way, Hatfield, Hertfordshire, AL10 9UL",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
@@ -130,7 +130,7 @@
     "location": "Track 2",
     "company_type": "Consumer Goods",
     "company_size": "200-500 employees",
-    "company_hq_address": "Manor Mill, Victoria Street, Chadderton, Oldham, OL9 0DD, United Kingdom",
+    "company_hq_address": "Manor Mill, Victoria Street, Chadderton, Oldham, OL9 0DD, UK",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -160,7 +160,7 @@
     "location": "Not available",
     "company_type": "Retail",
     "company_size": "55,000 employees",
-    "company_hq_address": "Oasis Centre, Al Quoz, Sheikh Zayed Road, Dubai",
+    "company_hq_address": "Oasis Centre, 3rd Floor, Sheikh Zayed Road, Al Quoz, Dubai",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -220,7 +220,7 @@
     "location": "Track 2",
     "company_type": "Retail",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "3450 E Miraloma Ave, Anaheim, CA 92806, United States",
+    "company_hq_address": "3450 East Miraloma Avenue, Anaheim, CA 92806, United States",
     "company_hq_country": "United States",
     "company_international": "No"
   },
@@ -233,9 +233,9 @@
     "date": "13 May 2025",
     "time": "10:20 - 10:40",
     "location": "Main Stage",
-    "company_type": "Sportswear and Footwear",
+    "company_type": "Sportswear",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Pfingstweidstrasse 106, 8005 Zurich",
+    "company_hq_address": "Pfingstweidstrasse 106, 8005 Zurich, Switzerland",
     "company_hq_country": "Switzerland",
     "company_international": "Yes"
   },
@@ -249,7 +249,7 @@
     "time": "14:40 - 15:00",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "3000 employees",
+    "company_size": "3000+ employees",
     "company_hq_address": "Haldesdorfer Straße 61, 22179 Hamburg, Germany",
     "company_hq_country": "Germany",
     "company_international": "Yes"
@@ -280,7 +280,7 @@
     "location": "Main Stage",
     "company_type": "Consulting",
     "company_size": "2000+ employees",
-    "company_hq_address": "909 Third Avenue, New York, NY 10022, USA",
+    "company_hq_address": "909 Third Avenue, New York, NY 10022, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -309,10 +309,10 @@
     "time": "15:50 - 16:10",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Not available",
-    "company_hq_address": "50 Grosvenor Hill, London W1K 3QT, United Kingdom",
+    "company_size": "11-50 employees",
+    "company_hq_address": "50 Brook Street, London W1K 5DR, United Kingdom",
     "company_hq_country": "United Kingdom",
-    "company_international": "Yes"
+    "company_international": "No"
   },
   {
     "name": "Cheryl Potter",
@@ -354,7 +354,7 @@
     "time": "12:10 - 12:50",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Over 63,000 employees",
+    "company_size": "63,000 employees",
     "company_hq_address": "1 Angel Square, Manchester M60 0AG, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
@@ -383,7 +383,7 @@
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
     "location": "Track 2",
-    "company_type": "Business Consulting and Finance",
+    "company_type": "Not available",
     "company_size": "Not available",
     "company_hq_address": "Not available",
     "company_hq_country": "Not available",
@@ -414,9 +414,9 @@
     "time": "15:50 - 16:20",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Over 370,000 employees",
-    "company_hq_address": "SPAR International, PO Box 8700, Amsterdam, 1006 AA, Netherlands",
-    "company_hq_country": "Netherlands",
+    "company_size": "370,000 employees globally",
+    "company_hq_address": "SPAR International, 3rd Floor, Hygeia Building, Northwood Park, Santry, Dublin 9, D09 X5N9, Ireland",
+    "company_hq_country": "Ireland",
     "company_international": "Yes"
   },
   {
@@ -430,7 +430,7 @@
     "location": "Track 2",
     "company_type": "Marketing and Advertising",
     "company_size": "Not available",
-    "company_hq_address": "Sea Containers, 18 Upper Ground, London SE1 9GL, UK",
+    "company_hq_address": "Sea Containers, 18 Upper Ground, London SE1 9GL, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -445,8 +445,8 @@
     "location": "Track 1",
     "company_type": "Market Research",
     "company_size": "11-50 employees",
-    "company_hq_address": "575 Fifth Avenue, 14th Floor, New York, NY 10017, USA",
-    "company_hq_country": "USA",
+    "company_hq_address": "28 Liberty Street, 6th Floor, New York, NY 10005, USA",
+    "company_hq_country": "United States",
     "company_international": "Yes"
   },
   {
@@ -459,7 +459,7 @@
     "time": "14:40 - 15:00",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Over 800 stores",
+    "company_size": "Not available",
     "company_hq_address": "Schanzenstraße 41, 51063 Cologne, Germany",
     "company_hq_country": "Germany",
     "company_international": "Yes"
@@ -474,8 +474,8 @@
     "time": "14:40 - 15:40",
     "location": "40 Crystal Palace Suite",
     "company_type": "Retail",
-    "company_size": "Not available",
-    "company_hq_address": "Not available",
+    "company_size": "10,001+ employees",
+    "company_hq_address": "Maxus Mall, 2nd Floor, Near Temba Hospital Road, Bhayandar West, Thane, Maharashtra 401101, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -549,7 +549,7 @@
     "time": "16:10 - 16:40",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Over 100,000 employees",
+    "company_size": "More than 100,000 employees",
     "company_hq_address": "Rosas 1665, Santiago, Chile",
     "company_hq_country": "Chile",
     "company_international": "Yes"
@@ -565,7 +565,7 @@
     "location": "Track 1",
     "company_type": "Fashion Technology",
     "company_size": "11-50 employees",
-    "company_hq_address": "Not available",
+    "company_hq_address": "London, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
   },
@@ -639,8 +639,8 @@
     "time": "16:40 - 17:00",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Approximately 30,000 employees",
-    "company_hq_address": "Rua Arnulfo de Lima, 2385 - Vila Santa Cruz, Franca - SP, 14403-491, Brazil",
+    "company_size": "approximately 43,000 employees",
+    "company_hq_address": "Rua Arnulfo de Lima, 2385 - Vila Santa Cruz, Franca - SP, 14400-670, Brazil",
     "company_hq_country": "Brazil",
     "company_international": "No"
   },
@@ -654,8 +654,8 @@
     "time": "07:45 - 08:45",
     "location": "Serpentine Room",
     "company_type": "Technology",
-    "company_size": "Over 300,000 employees",
-    "company_hq_address": "300 Frank W Burr Blvd, Teaneck, NJ 07666, United States",
+    "company_size": "345,300 employees",
+    "company_hq_address": "300 Frank W. Burr Blvd, Teaneck, NJ 07666, USA",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -669,7 +669,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "E-commerce",
-    "company_size": "500-1000 employees",
+    "company_size": "500+ employees",
     "company_hq_address": "Herbal House, 10 Back Hill, London EC1R 5EN, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -743,9 +743,9 @@
     "date": "14 May 2025",
     "time": "14:40 - 15:00",
     "location": "Track 3",
-    "company_type": "Trading and Services",
+    "company_type": "Trading",
     "company_size": "Not available",
-    "company_hq_address": "Werner-Otto-Straße 1-7, 22179 Hamburg, Germany",
+    "company_hq_address": "Wandsbeker Strasse 3-7, 22172 Hamburg, Germany",
     "company_hq_country": "Germany",
     "company_international": "Yes"
   },
@@ -758,9 +758,9 @@
     "date": "14 May 2025",
     "time": "09:30 - 09:50",
     "location": "Main Stage",
-    "company_type": "Sustainable Fashion",
+    "company_type": "Sustainable Materials",
     "company_size": "Not available",
-    "company_hq_address": "Not available",
+    "company_hq_address": "Renstiernas gata 29, 116 31 Stockholm, Sweden",
     "company_hq_country": "Sweden",
     "company_international": "No"
   },
@@ -804,8 +804,8 @@
     "time": "Not available",
     "location": "Not available",
     "company_type": "Retail",
-    "company_size": "Approximately 80,000 employees",
-    "company_hq_address": "3 Sheldon Square, Paddington, London, W2 6PX, United Kingdom",
+    "company_size": "Approximately 78,000 employees",
+    "company_hq_address": "3 Sheldon Square, Paddington, London W2 6PX, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -834,7 +834,7 @@
     "time": "Not available",
     "location": "Not available",
     "company_type": "Finance",
-    "company_size": "60,000+ employees",
+    "company_size": "More than 60,000 employees",
     "company_hq_address": "1585 Broadway, New York, NY 10036, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -863,7 +863,7 @@
     "date": "14 May 2025",
     "time": "09:05 - 09:30",
     "location": "Main Stage",
-    "company_type": "Brand Management",
+    "company_type": "Brand Development",
     "company_size": "600 employees",
     "company_hq_address": "1411 Broadway, 4th Floor, New York, NY 10018, USA",
     "company_hq_country": "United States",
@@ -909,7 +909,7 @@
     "time": "17:00 - 17:30",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Approximately 8,000 employees",
+    "company_size": "Approximately 10,000 employees",
     "company_hq_address": "Avenida del Llano Castellano, 51, 28034 Madrid, Spain",
     "company_hq_country": "Spain",
     "company_international": "Yes"
@@ -924,7 +924,7 @@
     "time": "14:40 - 15:20",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "5000+ employees",
+    "company_size": "1000-5000 employees",
     "company_hq_address": "One Island South, 2 Heung Yip Road, Wong Chuk Hang, Hong Kong",
     "company_hq_country": "Hong Kong",
     "company_international": "Yes"
@@ -939,7 +939,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "Technology",
-    "company_size": "2900 employees",
+    "company_size": "2600 employees",
     "company_hq_address": "32 Rue Blanche, 75009 Paris, France",
     "company_hq_country": "France",
     "company_international": "Yes"
@@ -955,7 +955,7 @@
     "location": "Track 3",
     "company_type": "Retail",
     "company_size": "Over 53,000 employees",
-    "company_hq_address": "Alshaya Group, Alshaya Building, Al Shuhada Street, Shamiya, Kuwait",
+    "company_hq_address": "Alshaya Group, Burj Alshaya, Al Soor Street, Al Mirqab, Kuwait City",
     "company_hq_country": "Kuwait",
     "company_international": "Yes"
   },
@@ -1059,9 +1059,9 @@
     "time": "16:40 - 17:00",
     "location": "Main Stage",
     "company_type": "Executive Search and Leadership Consulting",
-    "company_size": "Approximately 600 consultants",
-    "company_hq_address": "353 N Clark St, Chicago, IL 60654, United States",
-    "company_hq_country": "United States",
+    "company_size": "Over 600 consultants",
+    "company_hq_address": "353 N. Clark St., Suite 2500, Chicago, IL 60654, USA",
+    "company_hq_country": "USA",
     "company_international": "Yes"
   },
   {
@@ -1090,7 +1090,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "Over 300,000 employees",
-    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA",
+    "company_hq_address": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1120,7 +1120,7 @@
     "location": "Not available",
     "company_type": "Technology",
     "company_size": "201-500 employees",
-    "company_hq_address": "FreedomPay, Inc., 10 N. Independence Mall West, Suite 500, Philadelphia, PA 19106, USA",
+    "company_hq_address": "201 N. Broad Street, Suite 200, Philadelphia, PA 19107, USA",
     "company_hq_country": "USA",
     "company_international": "Yes"
   },
@@ -1133,7 +1133,7 @@
     "date": "14 May 2025",
     "time": "14:00 - 14:40",
     "location": "Track 1",
-    "company_type": "Conglomerate (Retail, Real Estate, Leisure & Entertainment)",
+    "company_type": "Conglomerate",
     "company_size": "Over 43,000 employees",
     "company_hq_address": "Majid Al Futtaim Tower 2, Level 3, Dubai, United Arab Emirates",
     "company_hq_country": "United Arab Emirates",
@@ -1193,7 +1193,7 @@
     "date": "13 May 2025",
     "time": "11:30 - 12:10",
     "location": "Track 1",
-    "company_type": "Sports Equipment",
+    "company_type": "Sports",
     "company_size": "1-10 employees",
     "company_hq_address": "Not available",
     "company_hq_country": "Australia",
@@ -1210,7 +1210,7 @@
     "location": "Not available",
     "company_type": "Technology",
     "company_size": "800+ employees",
-    "company_hq_address": "83 Avenue de la Grande Armée, 75116 Paris, France",
+    "company_hq_address": "76 Avenue Marceau, 75116 Paris, France",
     "company_hq_country": "France",
     "company_international": "Yes"
   },
@@ -1224,8 +1224,8 @@
     "time": "14:40 - 15:20",
     "location": "Track 3",
     "company_type": "Retail",
-    "company_size": "Approximately 2,000 employees",
-    "company_hq_address": "400 Oxford Street, London, W1A 1AB, United Kingdom",
+    "company_size": "2000-5000 employees",
+    "company_hq_address": "400 Oxford Street, London W1A 1AB, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1255,7 +1255,7 @@
     "location": "Track 2",
     "company_type": "E-commerce",
     "company_size": "10,000+ employees",
-    "company_hq_address": "5th Floor, Voyager House, Chicago Avenue, Manchester Airport, M90 3DQ",
+    "company_hq_address": "5th Floor, Voyager House, Chicago Avenue, Manchester Airport, M90 3DQ, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1270,7 +1270,7 @@
     "location": "Track 2",
     "company_type": "Retail",
     "company_size": "70,000 employees",
-    "company_hq_address": "Arthur Ryan House, 22-24 Parnell Street, Dublin 1, Ireland",
+    "company_hq_address": "Arthur Ryan House, 22-24 Parnell Street, Dublin 1, D01 V2V6, Ireland",
     "company_hq_country": "Ireland",
     "company_international": "Yes"
   },
@@ -1328,11 +1328,11 @@
     "date": "14 May 2025",
     "time": "17:00 - 17:30",
     "location": "Main Stage",
-    "company_type": "Retail",
+    "company_type": "Not available",
     "company_size": "Not available",
     "company_hq_address": "Not available",
-    "company_hq_country": "United States",
-    "company_international": "No"
+    "company_hq_country": "Not available",
+    "company_international": "Not available"
   },
   {
     "name": "Mark Conway",
@@ -1345,7 +1345,7 @@
     "location": "40 Crystal Palace Suite",
     "company_type": "Retail",
     "company_size": "55,000 employees",
-    "company_hq_address": "Oasis Centre, 3rd Floor, Sheikh Zayed Road, Dubai",
+    "company_hq_address": "Oasis Centre, Al Quoz, Dubai, UAE",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -1360,7 +1360,7 @@
     "location": "Track 1",
     "company_type": "Trade Association",
     "company_size": "51-200 employees",
-    "company_hq_address": "2345 Crystal Drive, Suite 800, Arlington, VA 22202, United States",
+    "company_hq_address": "2345 Crystal Drive, Suite 800, Arlington, VA 22202, USA",
     "company_hq_country": "United States",
     "company_international": "No"
   },
@@ -1373,7 +1373,7 @@
     "date": "12th - 14th May 2025",
     "time": "Not available",
     "location": "Not available",
-    "company_type": "Retail",
+    "company_type": "Trade Association",
     "company_size": "51-200 employees",
     "company_hq_address": "1101 New York Ave NW, Washington, DC 20005, United States",
     "company_hq_country": "United States",
@@ -1404,7 +1404,7 @@
     "time": "14:40 - 15:40",
     "location": "40 Crystal Palace Suite",
     "company_type": "Retail",
-    "company_size": "501-1000 employees",
+    "company_size": "500-1000 employees",
     "company_hq_address": "800 Apollo St, El Segundo, CA 90245, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1449,7 +1449,7 @@
     "time": "09:50 - 10:20",
     "location": "Main Stage",
     "company_type": "Professional Services",
-    "company_size": "Over 345,000 employees",
+    "company_size": "Over 415,000 employees",
     "company_hq_address": "30 Rockefeller Plaza, New York, NY 10112, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1463,9 +1463,9 @@
     "date": "14 May 2025",
     "time": "14:40 - 15:20",
     "location": "Track 2",
-    "company_type": "Fashion and Apparel",
-    "company_size": "Over 20,000 employees",
-    "company_hq_address": "PDS House, Dr. Annie Besant Road, Worli, Mumbai 400018, India",
+    "company_type": "Fashion Manufacturing and Sourcing",
+    "company_size": "1001-5000 employees",
+    "company_hq_address": "PDS House, Dr. Annie Besant Road, Worli, Mumbai, Maharashtra 400018, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -1480,7 +1480,7 @@
     "location": "50 Crystal Palace Suite",
     "company_type": "Technology",
     "company_size": "1001-5000 employees",
-    "company_hq_address": "Building 101, Candor TechSpace, Sector 48, Gurugram, Haryana 122018, India",
+    "company_hq_address": "Building 101, Candor TechSpace, Tikri, Sector 48, Gurugram, Haryana 122018, India",
     "company_hq_country": "India",
     "company_international": "Yes"
   },
@@ -1495,7 +1495,7 @@
     "location": "Main Stage",
     "company_type": "Retail",
     "company_size": "12,000 employees",
-    "company_hq_address": "JAFZA View 18 & 19, Jebel Ali Free Zone, Dubai",
+    "company_hq_address": "JAFZA 17, Jebel Ali Free Zone, Dubai",
     "company_hq_country": "United Arab Emirates",
     "company_international": "Yes"
   },
@@ -1509,16 +1509,16 @@
     "time": "12:40 - 13:20",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Over 321,000 employees",
+    "company_size": "321,383 employees",
     "company_hq_address": "33 Avenue Émile Zola, 92100 Boulogne-Billancourt, France",
     "company_hq_country": "France",
     "company_international": "Yes"
   },
   {
     "name": "Paul O'Hara",
-    "position": "CPO and Property Director,",
+    "position": "Chief People and Property Officer,",
     "company": "Halfords",
-    "description": "Since 2007, World Retail Congress has been the premier platform for in-depth research, content and events; driving retail growth and inspiring valuable global connections.",
+    "description": "Paul has been a member of the Halfords Executive team since 2018. The breadth of his role encompasses People, Property, Health and Safety as well as Executive lead on Sustainability. Prior to Halfords, Paul held senior roles at Sainsburys and began his career at Tesco.",
     "session_title": "Why Inclusive Leadership Matters More Than Ever",
     "date": "14 May 2025",
     "time": "11:30 - 12:10",
@@ -1554,7 +1554,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "Technology",
-    "company_size": "30,000 employees",
+    "company_size": "30,800 employees",
     "company_hq_address": "1515 3rd Street, San Francisco, CA 94158, United States",
     "company_hq_country": "United States",
     "company_international": "Yes"
@@ -1569,8 +1569,8 @@
     "time": "12:10 - 12:50",
     "location": "Track 1",
     "company_type": "Retail",
-    "company_size": "Approximately 36,000 employees",
-    "company_hq_address": "1 Portal Way, London, W3 6RS, United Kingdom",
+    "company_size": "Approximately 30,000 employees",
+    "company_hq_address": "1 Portal Way, London W3 6RS, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1614,7 +1614,7 @@
     "time": "15:10 - 15:30",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Over 60,000 employees",
+    "company_size": "Approximately 60,000 employees",
     "company_hq_address": "Hollinsbrook Way, Pilsworth, Bury, BL9 8RR, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1658,9 +1658,9 @@
     "date": "14 May 2025",
     "time": "14:20 - 14:50",
     "location": "Track 1",
-    "company_type": "Non-profit/Charity",
+    "company_type": "Non-profit Organization",
     "company_size": "51-200 employees",
-    "company_hq_address": "The Sail Loft, 42 Medina Road, Cowes, PO31 7BX",
+    "company_hq_address": "The Sail Loft, 42 Medina Road, Cowes, Isle of Wight, PO31 7BX, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
   },
@@ -1704,7 +1704,7 @@
     "time": "14:00 - 14:40",
     "location": "Track 2",
     "company_type": "Food Retail",
-    "company_size": "25,000 employees",
+    "company_size": "Approximately 25,000 employees",
     "company_hq_address": "Greggs House, Quorum Business Park, Newcastle upon Tyne, NE12 8BU, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "No"
@@ -1764,7 +1764,7 @@
     "time": "15:00 - 15:20",
     "location": "Track 2",
     "company_type": "Customer Data Science",
-    "company_size": "Approximately 2,500 employees",
+    "company_size": "2,500 employees",
     "company_hq_address": "184 Shepherds Bush Road, London W6 7NL, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1779,8 +1779,8 @@
     "time": "17:20 - 17:40",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Approximately 230,000 employees",
-    "company_hq_address": "21/F Devon House, Taikoo Place, 979 King's Road, Quarry Bay",
+    "company_size": "Over 230,000 employees",
+    "company_hq_address": "21/F Devon House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong",
     "company_hq_country": "Hong Kong",
     "company_international": "Yes"
   },
@@ -1795,7 +1795,7 @@
     "location": "Track 3",
     "company_type": "Management Consulting",
     "company_size": "25,000+ employees",
-    "company_hq_address": "Exchange Place, 31 St James Ave, Boston, MA 02116, United States",
+    "company_hq_address": "Exchange Place, 31 St James Ave, Boston, MA 02116, USA",
     "company_hq_country": "United States",
     "company_international": "Yes"
   },
@@ -1839,7 +1839,7 @@
     "time": "12:50 - 13:50",
     "location": "Not available",
     "company_type": "Technology",
-    "company_size": "800+ employees",
+    "company_size": "500-1000 employees",
     "company_hq_address": "83 Avenue de la Grande Armée, 75116 Paris, France",
     "company_hq_country": "France",
     "company_international": "Yes"
@@ -1854,7 +1854,7 @@
     "time": "11:30 - 12:10",
     "location": "Track 2",
     "company_type": "Retail",
-    "company_size": "Not available",
+    "company_size": "3000+ employees",
     "company_hq_address": "Chelsea House, Westgate, London, W5 1DR, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -1929,7 +1929,7 @@
     "time": "09:50 - 10:20",
     "location": "Main Stage",
     "company_type": "Retail",
-    "company_size": "Approximately 225,000 employees",
+    "company_size": "More than 170,000 employees",
     "company_hq_address": "Olof Palmestraat 1, 2616 LN Delft, Netherlands",
     "company_hq_country": "Netherlands",
     "company_international": "Yes"
@@ -1959,7 +1959,7 @@
     "time": "12:10 - 12:30",
     "location": "Track 1",
     "company_type": "Food delivery",
-    "company_size": "5000+ employees",
+    "company_size": "2000-5000 employees",
     "company_hq_address": "The River Building, Level 1 Cannon Bridge House, 1 Cousin Lane, London, EC4R 3TE, United Kingdom",
     "company_hq_country": "United Kingdom",
     "company_international": "Yes"
@@ -2048,8 +2048,8 @@
     "date": "13 May 2025",
     "time": "14:00 - 14:40",
     "location": "Track 2",
-    "company_type": "Bicycle and Bicycle Parts Manufacturing",
-    "company_size": "3,100 employees",
+    "company_type": "Bicycle and Parts Manufacturing",
+    "company_size": "Approximately 3,100 employees",
     "company_hq_address": "Industrieweg 4, 8444 AR Heerenveen, Netherlands",
     "company_hq_country": "Netherlands",
     "company_international": "Yes"
@@ -2078,7 +2078,7 @@
     "date": "14 May 2025",
     "time": "10:20 - 10:40",
     "location": "Main Stage",
-    "company_type": "Fashion/Retail",
+    "company_type": "Retail",
     "company_size": "51-200 employees",
     "company_hq_address": "242 Elizabeth St, New York, NY 10012, United States",
     "company_hq_country": "United States",
@@ -2094,7 +2094,7 @@
     "time": "12:50 - 13:50",
     "location": "Not available",
     "company_type": "Retail",
-    "company_size": "201-500 employees",
+    "company_size": "Not available",
     "company_hq_address": "Arenavägen 63, 121 77 Johanneshov, Sweden",
     "company_hq_country": "Sweden",
     "company_international": "Yes"
@@ -2170,8 +2170,8 @@
     "location": "Track 1",
     "company_type": "Investment",
     "company_size": "Not available",
-    "company_hq_address": "32/F, Tower 1, Times Square, 1 Matheson Street, Causeway Bay",
-    "company_hq_country": "Hong Kong",
+    "company_hq_address": "Not available",
+    "company_hq_country": "China",
     "company_international": "Yes"
   }
 ]
